@@ -1,0 +1,533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 21:45+0200\n"
+"PO-Revision-Date: 2011-02-16 23:55+0000\n"
+"Last-Translator: chreide <christian@eide-itc.no>\n"
+"Language-Team: French <>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: ../bareftp/mainwin.py:31
+msgid "_About"
+msgstr "À _propos"
+
+#: ../bareftp/mainwin.py:32
+msgid "_Quit"
+msgstr "_Quitter"
+
+#: ../bareftp/mainwin.py:195
+msgid "File Transfer Client"
+msgstr "Client de transfert de fichiers"
+
+#~ msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+#~ msgstr ""
+#~ "Transférez des fichiers en utilisant les protocoles FTP, FTPS ou SFTP"
+
+#~ msgid "Connect"
+#~ msgstr "Se connecter"
+
+#~ msgid "Disconnect"
+#~ msgstr "Se déconnecter"
+
+#~ msgid "_File"
+#~ msgstr "_Fichier"
+
+#~ msgid "_Help"
+#~ msgstr "Aid_e"
+
+#~ msgid "_Edit"
+#~ msgstr "É_dition"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "_Préférences"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Marque-pages"
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "Modifier les marque-pages"
+
+#~ msgid "Add bookmark"
+#~ msgstr "Ajouter un marque-page"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Marque-pages"
+
+#~ msgid "_Tools"
+#~ msgstr "_Outils"
+
+#~ msgid "Synchronized browsing"
+#~ msgstr "Navigation synchronisée"
+
+#~ msgid "Host:"
+#~ msgstr "Serveur :"
+
+#~ msgid "Port:"
+#~ msgstr "Port :"
+
+#~ msgid "User:"
+#~ msgstr "Utilisateur :"
+
+#~ msgid "Password:"
+#~ msgstr "Mot de passe :"
+
+#~ msgid "_Disconnect"
+#~ msgstr "Se _déconnecter"
+
+#~ msgid "C_onnect"
+#~ msgstr "Se _connecter"
+
+#~ msgid "Abort"
+#~ msgstr "Annuler"
+
+#~ msgid "Transfers"
+#~ msgstr "Transferts"
+
+#~ msgid "Messages"
+#~ msgstr "Messages"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled."
+#~ msgstr "La communication avec GnomeKeyring a échoué et a été désactivée."
+
+#~ msgid "If the problem persists, you may want to disable it permanently"
+#~ msgstr ""
+#~ "Si le problème persiste, vous pouvez le désactiver de façon permanente"
+
+#~ msgid "Overwrite"
+#~ msgstr "Écraser"
+
+#~ msgid "Resume"
+#~ msgstr "Reprendre"
+
+#~ msgid "Append"
+#~ msgstr "Ajouter"
+
+#~ msgid "Skip"
+#~ msgstr "Passer"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Local size"
+#~ msgstr "Taille locale"
+
+#~ msgid "Remote size"
+#~ msgstr "Taille distante"
+
+#~ msgid "Action"
+#~ msgstr "Action"
+
+#~ msgid "File operations"
+#~ msgstr "Opérations sur les fichiers"
+
+#~ msgid ""
+#~ "The following files exists on both the local and remote file system.\n"
+#~ "Right-click to choose what action you want to take, or set an action for "
+#~ "all items under the list."
+#~ msgstr ""
+#~ "Les fichiers suivants existent sur le système de fichiers local et "
+#~ "également sur celui distant.\n"
+#~ "Faites un clic-droit afin de choisir l'action que vous souhaitez "
+#~ "réaliser, ou sélectionnez une action pour tous les éléments de la liste."
+
+#~ msgid "_Apply for all"
+#~ msgstr "_Appliquer pour tous"
+
+#~ msgid "<b>File operations</b>"
+#~ msgstr "<b>Opérations sur les fichiers</b>"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid "Permissions"
+#~ msgstr "Permissions"
+
+#~ msgid "Read"
+#~ msgstr "Lire"
+
+#~ msgid "Write"
+#~ msgstr "Écrire"
+
+#~ msgid "Execute"
+#~ msgstr "Exécuter"
+
+#~ msgid "<b>User:</b>"
+#~ msgstr "<b>Utilisateur :</b>"
+
+#~ msgid "<b>Group:</b>"
+#~ msgstr "<b>Groupe :</b>"
+
+#~ msgid "<b>Others:</b>"
+#~ msgstr "<b>Autres :</b>"
+
+#~ msgid "<b>Permissions</b>"
+#~ msgstr "<b>Permissions</b>"
+
+#~ msgid ""
+#~ "This is an unhandled exception. Please consider filing a bug report on \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Please include the exception details below."
+#~ msgstr ""
+#~ "Ceci est une exception non gérée. S'il vous plaît, pensez à poster un "
+#~ "rapport d'anomalie \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Pensez à inclure les détails de l'exception ci-dessous."
+
+#~ msgid "Details"
+#~ msgstr "Détails"
+
+#~ msgid "Send command"
+#~ msgstr "Envoyer la commande"
+
+#~ msgid "Command:"
+#~ msgstr "Commande :"
+
+#~ msgid "Open Directory"
+#~ msgstr "Ouvrir le dossier"
+
+#~ msgid "New Directory"
+#~ msgstr "Nouveau dossier"
+
+#~ msgid "Refresh"
+#~ msgstr "Rafraîchir"
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "Upload"
+#~ msgstr "Envoyer"
+
+#~ msgid "Rename"
+#~ msgstr "Renommer"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"
+
+#~ msgid "Filename"
+#~ msgstr "Nom du fichier"
+
+#~ msgid "Size"
+#~ msgstr "Taille"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "User"
+#~ msgstr "Utilisateur"
+
+#~ msgid "Group"
+#~ msgstr "Groupe"
+
+#~ msgid "Parent Directory"
+#~ msgstr "Dossier parent"
+
+#~ msgid "A directory named {0} already exists"
+#~ msgstr "Le dossier nommé {0} existe déjà"
+
+#~ msgid "A file named {0} already exists"
+#~ msgstr "Le fichier nommé {0} existe déjà"
+
+#~ msgid "Directory {0} not found"
+#~ msgstr "Le dossier {0} n'a pas été trouvé"
+
+#~ msgid "Are you sure you want to delete the selected files?"
+#~ msgstr "Êtes-vous sûr de vouloir supprimer les fichiers sélectionnés ?"
+
+#~ msgid "Delete failed. Access denied"
+#~ msgstr "Erreur de suppression. Accès interdit"
+
+#~ msgid "Access to the path {0} is denied"
+#~ msgstr "L'accès au chemin {0} est interdit"
+
+#~ msgid "Can't change directory when not connected"
+#~ msgstr ""
+#~ "Vous ne pouvez pas changer de dossier lorsque vous n'êtes pas connecté"
+
+#~ msgid "Retrieving directory contents.."
+#~ msgstr "Récupération du contenu du répertoire..."
+
+#~ msgid "Deleting.."
+#~ msgstr "Supprimer..."
+
+#~ msgid "{0} already exists. Overwrite?"
+#~ msgstr "{0} existe déjà. Écraser ?"
+
+#~ msgid "New folder"
+#~ msgstr "Nouveau dossier"
+
+#~ msgid "New bookmark"
+#~ msgstr "Nouveau marque-page"
+
+#~ msgid "Backup Bookmarks"
+#~ msgstr "Sauvegarder les marque-pages"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "Restore Bookmarks"
+#~ msgstr "Restaurer les marque-pages"
+
+#~ msgid "Open"
+#~ msgstr "Ouvrir"
+
+#~ msgid "Are you sure you want to delete {0}?"
+#~ msgstr "Êtes-vous sûr de vouloir supprimer {0} ?"
+
+#~ msgid "<i><b>Note:</b> Password are currently stored in clear text</i>"
+#~ msgstr ""
+#~ "<i><b>Note :</b> Les mots de passe sont actuellement enregistrés en "
+#~ "clair</i>"
+
+#~ msgid ""
+#~ "If you don't save the password you will be prompted for it when "
+#~ "connecting."
+#~ msgstr ""
+#~ "Si vous n'enregistrez pas le mot de passe, vous devrez le saisir de "
+#~ "nouveau lorsque vous vous connecterez."
+
+#~ msgid "This bareFTP is built without GnomeKeyring support."
+#~ msgstr ""
+#~ "Cette version de bareFTP a été compilée sans le support de GnomeKeyring."
+
+#~ msgid ""
+#~ "You can enable Gnome Keyring password storage in Preferences to encrypt "
+#~ "your passwords."
+#~ msgstr ""
+#~ "Vous pouvez activer le stockage des mots de passe dans GnomeKeyring dans "
+#~ "Préférences pour chiffrer vos mots de passe."
+
+#~ msgid "New Bookmark"
+#~ msgstr "Nouveau marque-page"
+
+#~ msgid "New Folder"
+#~ msgstr "Nouveau dossier"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "Importer des marque-pages"
+
+#~ msgid "Name:"
+#~ msgstr "Nom :"
+
+#~ msgid "<b>Bookmark</b>"
+#~ msgstr "<b>Marque-page</b>"
+
+#~ msgid "Protocol:"
+#~ msgstr "Protocole :"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Connexion</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Authentification</b>"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "Remote Charset"
+#~ msgstr "Jeu de caractères distant"
+
+#~ msgid "<b>Character encoding</b>"
+#~ msgstr "<b>Encodage des caractères</b>"
+
+#~ msgid "Show hidden files"
+#~ msgstr "Voir les fichiers cachés"
+
+#~ msgid "<b>File view</b>"
+#~ msgstr "<b>Affichage des fichiers</b>"
+
+#~ msgid "Passive file transfers"
+#~ msgstr "Transferts de fichiers en mode passif"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP</b>"
+
+#~ msgid "Encrypt Data Channel"
+#~ msgstr "Tunnel de données chiffrées"
+
+#~ msgid "<b>FTPS</b>"
+#~ msgstr "<b>FTPS</b>"
+
+#~ msgid "Local path"
+#~ msgstr "Chemin local"
+
+#~ msgid "Remote path"
+#~ msgstr "Chemin distant"
+
+#~ msgid "Syncronized browsing"
+#~ msgstr "Navigation synchronisée"
+
+#~ msgid "<b>Paths</b>"
+#~ msgstr "<b>Chemins</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "Avancé"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Répertoire</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Préférences"
+
+#~ msgid "Enable directory cache"
+#~ msgstr "Activer le cache des répertoires"
+
+#~ msgid "Message font:"
+#~ msgstr "Police des messages :"
+
+#~ msgid "Enable logging"
+#~ msgstr "Activer le journal des événements"
+
+#~ msgid "<b>Message view</b>"
+#~ msgstr "<b>Affichage des messages</b>"
+
+#~ msgid "Preserve file permissions"
+#~ msgstr "Conserver les permissions de fichiers"
+
+#~ msgid "<b>File transfer</b>"
+#~ msgstr "<b>Transfert de fichiers</b>"
+
+#~ msgid "Use Gnome Keyring for passwords"
+#~ msgstr "Utiliser le trousseau de clés Gnome pour les mots de passe"
+
+#~ msgid "<b>Bookmarks</b>"
+#~ msgstr "<b>Marque-pages</b>"
+
+#~ msgid "Default protocol:"
+#~ msgstr "Protocole par défaut :"
+
+#~ msgid "<b>Protocol</b>"
+#~ msgstr "<b>Protocole</b>"
+
+#~ msgid "Network timeout (s):"
+#~ msgstr "Délai d'attente du réseau (s) :"
+
+#~ msgid "<b>Network</b>"
+#~ msgstr "<b>Réseau</b>"
+
+#~ msgid "Do one transfer at a time"
+#~ msgstr "Faire un transfert à la fois"
+
+#~ msgid "Maximum number of connections:"
+#~ msgstr "Nombre maximum de connexions :"
+
+#~ msgid "Connection"
+#~ msgstr "Connexion"
+
+#~ msgid "Default port:"
+#~ msgstr "Port par défaut :"
+
+#~ msgid "<b>FTP Connection</b>"
+#~ msgstr "<b>Connexion FTP</b>"
+
+#~ msgid "<b>File transfers</b>"
+#~ msgstr "<b>Transferts de fichiers</b>"
+
+#~ msgid "Translate empty user to 'anonymous'"
+#~ msgstr "Traduire l'utilisateur vide en « anonymous »"
+
+#~ msgid "Use email as anonymous password"
+#~ msgstr "Utiliser l'email comme mot de passe anonyme"
+
+#~ msgid "Email address:"
+#~ msgstr "Adresse email :"
+
+#~ msgid "<b>Anonymous login</b>"
+#~ msgstr "<b>Connexion anonyme</b>"
+
+#~ msgid "<b>Protection level</b>"
+#~ msgstr "<b>Niveau de protection</b>"
+
+#~ msgid "Verify server certificate"
+#~ msgstr "Vérifier le certificat du serveur"
+
+#~ msgid "<b>Certificates</b>"
+#~ msgstr "<b>Certificats</b>"
+
+#~ msgid "<b>SFTP Connection</b>"
+#~ msgstr "<b>Connexion SFTP</b>"
+
+#~ msgid "Program path:"
+#~ msgstr "Chemin du programme :"
+
+#~ msgid "<b>SSH</b>"
+#~ msgstr "<b>SSH</b>"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled"
+#~ msgstr "La communication avec GnomeKeyring a échoué et a été désactivée."
+
+#~ msgid "Unknown encoding {0}. Check spelling."
+#~ msgstr "L'encodage {0} est inconnu. Vérifiez l'orthographe."
+
+#~ msgid "Move up"
+#~ msgstr "Monter"
+
+#~ msgid "Move down"
+#~ msgstr "Descendre"
+
+#~ msgid "Status"
+#~ msgstr "Statut"
+
+#~ msgid "Progress"
+#~ msgstr "Progression"
+
+#~ msgid "Transfered bytes"
+#~ msgstr "Données transférées"
+
+#~ msgid "Transfer rate"
+#~ msgstr "Taux de transfert"
+
+#~ msgid "Time"
+#~ msgstr "Temps"
+
+#~ msgid "Transfer time"
+#~ msgstr "Temps de transfert"
+
+#~ msgid "Time Elapsed"
+#~ msgstr "Temps écoulé"
+
+#~ msgid "SSH not found. Check your ssh program path!"
+#~ msgstr "SSH n'a pas été trouvé. Vérifiez votre chemin du programme SSH !"
+
+#~ msgid "Clear finished transfers"
+#~ msgstr "Nettoyer les transferts terminés"
+
+#~ msgid "Syncronized browsing disabled"
+#~ msgstr "Navigation synchronisée désactivée"
+
+#~ msgid "Connecting"
+#~ msgstr "Connexion"
+
+#~ msgid "Invalid port number"
+#~ msgstr "Numéro de port invalide"
+
+#~ msgid "Operation aborted"
+#~ msgstr "Opération annulée"
+
+#~ msgid "Connected"
+#~ msgstr "Connecté"
+
+#~ msgid "You need to connect to a remote site first"
+#~ msgstr "Vous devez d'abord vous connecter au site distant"
+
+#~ msgid ""
+#~ "This will close the current connection. Do you want to continue "
+#~ "connecting?"
+#~ msgstr ""
+#~ "Cela fermera la connexion actuelle. Souhaitez-vous continuer à vous "
+#~ "connecter ?"
+
+#~ msgid "Syncronized browsing enabled"
+#~ msgstr "Navigation synchronisée activée"

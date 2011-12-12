@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 21:45+0200\n"
+"PO-Revision-Date: 2011-02-16 23:55+0000\n"
+"Last-Translator: chreide <christian@eide-itc.no>\n"
+"Language-Team: Japanese <None>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../bareftp/mainwin.py:31
+msgid "_About"
+msgstr "情報(_A)"
+
+#: ../bareftp/mainwin.py:32
+msgid "_Quit"
+msgstr "終了(_Q)"
+
+#: ../bareftp/mainwin.py:195
+msgid "File Transfer Client"
+msgstr "ファイル転送クライアント"
+
+#~ msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+#~ msgstr "FTP、FTPS 及び SFTP プロトコルでファイルを転送します"
+
+#~ msgid "Connect"
+#~ msgstr "接続"
+
+#~ msgid "Disconnect"
+#~ msgstr "切断"
+
+#~ msgid "_File"
+#~ msgstr "ファイル(_F)"
+
+#~ msgid "_Help"
+#~ msgstr "ヘルプ(_H)"
+
+#~ msgid "_Edit"
+#~ msgstr "編集(_E)"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "設定(_n)"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "ブックマーク(_B)"
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "ブックマークを編集"
+
+#~ msgid "Add bookmark"
+#~ msgstr "ブックマークに追加"
+
+#~ msgid "Bookmarks"
+#~ msgstr "ブックマーク"
+
+#~ msgid "_Tools"
+#~ msgstr "ツール(_T)"
+
+#~ msgid "Synchronized browsing"
+#~ msgstr "同期ブラウズ"
+
+#~ msgid "Host:"
+#~ msgstr "ホスト:"
+
+#~ msgid "Port:"
+#~ msgstr "ポート:"
+
+#~ msgid "User:"
+#~ msgstr "ユーザー:"
+
+#~ msgid "Password:"
+#~ msgstr "パスワード:"
+
+#~ msgid "_Disconnect"
+#~ msgstr "切断(_D)"
+
+#~ msgid "C_onnect"
+#~ msgstr "接続(_o)"
+
+#~ msgid "Abort"
+#~ msgstr "中断"
+
+#~ msgid "Transfers"
+#~ msgstr "転送"
+
+#~ msgid "Messages"
+#~ msgstr "メッセージ"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled."
+#~ msgstr "GNOME キーリングとの通信に失敗した為、無効となりました。"
+
+#~ msgid "If the problem persists, you may want to disable it permanently"
+#~ msgstr "この問題が解決しない場合は、完全に無効化することが出来ます"
+
+#~ msgid "Overwrite"
+#~ msgstr "上書き"
+
+#~ msgid "Resume"
+#~ msgstr "レジューム"
+
+#~ msgid "Append"
+#~ msgstr "追加書き込み"
+
+#~ msgid "Skip"
+#~ msgstr "スキップ"
+
+#~ msgid "File"
+#~ msgstr "ファイル"
+
+#~ msgid "Local size"
+#~ msgstr "ローカルサイズ"
+
+#~ msgid "Remote size"
+#~ msgstr "リモートサイズ"
+
+#~ msgid "Action"
+#~ msgstr "アクション"
+
+#~ msgid "File operations"
+#~ msgstr "ファイルの操作"
+
+#~ msgid ""
+#~ "The following files exists on both the local and remote file system.\n"
+#~ "Right-click to choose what action you want to take, or set an action for "
+#~ "all items under the list."
+#~ msgstr ""
+#~ "下記のファイルは、ローカルとリモートの両方のファイルシステムに存在していま"
+#~ "す。\n"
+#~ "右クリックから希望するアクションを選択するか、下記のアイテム一覧に対してア"
+#~ "クションを設定して下さい。"
+
+#~ msgid "_Apply for all"
+#~ msgstr "すべてに適用(_A)"
+
+#~ msgid "<b>File operations</b>"
+#~ msgstr "<b>ファイルの操作</b>"
+
+#~ msgid "Password"
+#~ msgstr "パスワード"
+
+#~ msgid "Permissions"
+#~ msgstr "パーミッション"
+
+#~ msgid "Read"
+#~ msgstr "読み"
+
+#~ msgid "Write"
+#~ msgstr "書き"
+
+#~ msgid "Execute"
+#~ msgstr "実行"
+
+#~ msgid "<b>User:</b>"
+#~ msgstr "<b>ユーザー:</b>"
+
+#~ msgid "<b>Group:</b>"
+#~ msgstr "<b>グループ:</b>"
+
+#~ msgid "<b>Others:</b>"
+#~ msgstr "<b>その他:</b>"
+
+#~ msgid "<b>Permissions</b>"
+#~ msgstr "<b>パーミッション</b>"
+
+#~ msgid ""
+#~ "This is an unhandled exception. Please consider filing a bug report on \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Please include the exception details below."
+#~ msgstr ""
+#~ "例外処理が発生しました。宜しければバグ報告にご協力下さい \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "下記の例外に関する記述を転載して頂ければ幸いです。"
+
+#~ msgid "Details"
+#~ msgstr "詳細"
+
+#~ msgid "Send command"
+#~ msgstr "送信コマンド"
+
+#~ msgid "Command:"
+#~ msgstr "コマンド:"
+
+#~ msgid "Open Directory"
+#~ msgstr "ディレクトリを開く"
+
+#~ msgid "New Directory"
+#~ msgstr "新規ディレクトリ"
+
+#~ msgid "Refresh"
+#~ msgstr "更新"
+
+#~ msgid "Download"
+#~ msgstr "ダウンロード"
+
+#~ msgid "Upload"
+#~ msgstr "アップロード"
+
+#~ msgid "Rename"
+#~ msgstr "名前を変更"
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#~ msgid "Filename"
+#~ msgstr "ファイル名"
+
+#~ msgid "Size"
+#~ msgstr "サイズ"
+
+#~ msgid "Date"
+#~ msgstr "日付"
+
+#~ msgid "User"
+#~ msgstr "ユーザー"
+
+#~ msgid "Group"
+#~ msgstr "グループ"
+
+#~ msgid "Parent Directory"
+#~ msgstr "親ディレクトリ"
+
+#~ msgid "A directory named {0} already exists"
+#~ msgstr "ディレクトリ名 {0} は既に存在しています"
+
+#~ msgid "A file named {0} already exists"
+#~ msgstr "ファイル名 {0} は既に存在しています"
+
+#~ msgid "Directory {0} not found"
+#~ msgstr "ディレクトリ {0} が見つかりません"
+
+#~ msgid "Are you sure you want to delete the selected files?"
+#~ msgstr "選択したファイルを削除しても宜しいですか？"
+
+#~ msgid "Delete failed. Access denied"
+#~ msgstr "削除に失敗しました。アクセスは拒否されました"
+
+#~ msgid "Access to the path {0} is denied"
+#~ msgstr "パス {0} に対するアクセスが拒否されました"
+
+#~ msgid "Can't change directory when not connected"
+#~ msgstr "未接続状態ではディレクトリを変更する事が出来ません"
+
+#~ msgid "Retrieving directory contents.."
+#~ msgstr "ディレクトリの内容を取得しています.."
+
+#~ msgid "Deleting.."
+#~ msgstr "削除中.."
+
+#~ msgid "{0} already exists. Overwrite?"
+#~ msgstr "{0} は既に存在しています。上書きしますか？"
+
+#~ msgid "New folder"
+#~ msgstr "新規フォルダ"
+
+#~ msgid "New bookmark"
+#~ msgstr "新規ブックマーク"
+
+#~ msgid "Backup Bookmarks"
+#~ msgstr "ブックマークをバックアップ"
+
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid "Restore Bookmarks"
+#~ msgstr "ブックマークを復元する"
+
+#~ msgid "Open"
+#~ msgstr "開く"
+
+#~ msgid "Are you sure you want to delete {0}?"
+#~ msgstr "{0} を削除しても宜しいですか？"
+
+#~ msgid "<i><b>Note:</b> Password are currently stored in clear text</i>"
+#~ msgstr ""
+#~ "<i><b>注記:</b> パスワードは現在クリアテキストで格納されています</i>"
+
+#~ msgid ""
+#~ "If you don't save the password you will be prompted for it when "
+#~ "connecting."
+#~ msgstr ""
+#~ "パスワードを保存しない場合、接続時にプロンプトが表示されるようになります。"
+
+#~ msgid "This bareFTP is built without GnomeKeyring support."
+#~ msgstr "bareFTP は GNOME キーリングのサポート外でビルトされています。"
+
+#~ msgid ""
+#~ "You can enable Gnome Keyring password storage in Preferences to encrypt "
+#~ "your passwords."
+#~ msgstr ""
+#~ "設定において、GNOME キーリングのパスワードストレージを有効にすれば、パス"
+#~ "ワードを暗号化することが出来ます。"
+
+#~ msgid "New Bookmark"
+#~ msgstr "新規ブックマーク"
+
+#~ msgid "New Folder"
+#~ msgstr "新規フォルダ"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "ブックマークをインポートする"
+
+#~ msgid "Name:"
+#~ msgstr "名前:"
+
+#~ msgid "<b>Bookmark</b>"
+#~ msgstr "<b>ブックマーク</b>"
+
+#~ msgid "Protocol:"
+#~ msgstr "プロトコル:"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>接続</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>認証</b>"
+
+#~ msgid "General"
+#~ msgstr "全般設定"
+
+#~ msgid "Remote Charset"
+#~ msgstr "リモートの文字セット"
+
+#~ msgid "<b>Character encoding</b>"
+#~ msgstr "<b>文字エンコーディング</b>"
+
+#~ msgid "Show hidden files"
+#~ msgstr "隠しファイルを表示する"
+
+#~ msgid "<b>File view</b>"
+#~ msgstr "<b>ファイルビュー</b>"
+
+#~ msgid "Passive file transfers"
+#~ msgstr "パッシブモードでファイルを転送する"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP</b>"
+
+#~ msgid "Encrypt Data Channel"
+#~ msgstr "データチャンネルを暗号化する"
+
+#~ msgid "<b>FTPS</b>"
+#~ msgstr "<b>FTPS</b>"
+
+#~ msgid "Local path"
+#~ msgstr "ローカルパス"
+
+#~ msgid "Remote path"
+#~ msgstr "リモートパス"
+
+#~ msgid "Syncronized browsing"
+#~ msgstr "同期ブラウズ"
+
+#~ msgid "<b>Paths</b>"
+#~ msgstr "<b>パス</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "高度な設定"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>フォルダ</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "設定"
+
+#~ msgid "Enable directory cache"
+#~ msgstr "ディレクトリのキャッシュを有効にする"
+
+#~ msgid "Message font:"
+#~ msgstr "メッセージのフォント:"
+
+#~ msgid "Enable logging"
+#~ msgstr "ログを有効にする"
+
+#~ msgid "<b>Message view</b>"
+#~ msgstr "<b>メッセージビュー</b>"
+
+#~ msgid "Preserve file permissions"
+#~ msgstr "ファイルのパーミッションを保持する"
+
+#~ msgid "<b>File transfer</b>"
+#~ msgstr "<b>ファイル転送</b>"
+
+#~ msgid "Use Gnome Keyring for passwords"
+#~ msgstr "パスワードに GNOME キーリングを使用する"
+
+#~ msgid "<b>Bookmarks</b>"
+#~ msgstr "<b>ブックマーク</b>"
+
+#~ msgid "Default protocol:"
+#~ msgstr "デフォルトのプロトコル:"
+
+#~ msgid "<b>Protocol</b>"
+#~ msgstr "<b>プロトコル</b>"
+
+#~ msgid "Network timeout (s):"
+#~ msgstr "ネットワークのタイムアウト(秒):"
+
+#~ msgid "<b>Network</b>"
+#~ msgstr "<b>ネットワーク</b>"
+
+#~ msgid "Do one transfer at a time"
+#~ msgstr "一度に一つずつ転送する"
+
+#~ msgid "Maximum number of connections:"
+#~ msgstr "接続の最大数:"
+
+#~ msgid "Connection"
+#~ msgstr "接続"
+
+#~ msgid "Default port:"
+#~ msgstr "デフォルトのポート:"
+
+#~ msgid "<b>FTP Connection</b>"
+#~ msgstr "<b>FTP 接続</b>"
+
+#~ msgid "<b>File transfers</b>"
+#~ msgstr "<b>ファイル転送</b>"
+
+#~ msgid "Translate empty user to 'anonymous'"
+#~ msgstr "空白のユーザーを 'anonymous' に転換する"
+
+#~ msgid "Use email as anonymous password"
+#~ msgstr "メールアドレスを anonymous のパスワードとして使う"
+
+#~ msgid "Email address:"
+#~ msgstr "メールアドレス:"
+
+#~ msgid "<b>Anonymous login</b>"
+#~ msgstr "<b>Anonymous ログイン</b>"
+
+#~ msgid "<b>Protection level</b>"
+#~ msgstr "<b>プロテクションレベル</b>"
+
+#~ msgid "Verify server certificate"
+#~ msgstr "サーバの証明書を照合する"
+
+#~ msgid "<b>Certificates</b>"
+#~ msgstr "<b>証明書</b>"
+
+#~ msgid "<b>SFTP Connection</b>"
+#~ msgstr "<b>SFTP 接続</b>"
+
+#~ msgid "Program path:"
+#~ msgstr "プログラムのパス:"
+
+#~ msgid "<b>SSH</b>"
+#~ msgstr "<b>SSH</b>"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled"
+#~ msgstr "GNOME キーリングの接続に失敗し、無効となりました"
+
+#~ msgid "Unknown encoding {0}. Check spelling."
+#~ msgstr "{0} は不明なエンコーディングです。スペルを確認して下さい。"
+
+#~ msgid "Move up"
+#~ msgstr "上へ移動"
+
+#~ msgid "Move down"
+#~ msgstr "下へ移動"
+
+#~ msgid "Status"
+#~ msgstr "ステータス"
+
+#~ msgid "Progress"
+#~ msgstr "進捗"
+
+#~ msgid "Transfered bytes"
+#~ msgstr "転送されたバイト数"
+
+#~ msgid "Transfer rate"
+#~ msgstr "転送速度"
+
+#~ msgid "Time"
+#~ msgstr "時間"
+
+#~ msgid "Transfer time"
+#~ msgstr "転送時間"
+
+#~ msgid "Time Elapsed"
+#~ msgstr "経過時間"
+
+#~ msgid "SSH not found. Check your ssh program path!"
+#~ msgstr "SSH が見つかりません。SSH プログラムのパスを確認して下さい！"
+
+#~ msgid "Clear finished transfers"
+#~ msgstr "終了した転送を削除する"
+
+#~ msgid "Syncronized browsing disabled"
+#~ msgstr "同期ブラウズを無効にする"
+
+#~ msgid "Connecting"
+#~ msgstr "接続中"
+
+#~ msgid "Invalid port number"
+#~ msgstr "ポート番号が無効です"
+
+#~ msgid "Operation aborted"
+#~ msgstr "操作が中断されました"
+
+#~ msgid "Connected"
+#~ msgstr "接続しました"
+
+#~ msgid "You need to connect to a remote site first"
+#~ msgstr "初めにリモートサイトに接続する必要があります"
+
+#~ msgid ""
+#~ "This will close the current connection. Do you want to continue "
+#~ "connecting?"
+#~ msgstr "現在の接続を終了します。接続を継続しますか？"
+
+#~ msgid "Syncronized browsing enabled"
+#~ msgstr "同期ブラウズが有効です"

@@ -1,0 +1,27 @@
+[apps.bareftp]
+enable_directory_cache = /apps/bareftp/general/enable_directory_cache
+preserve_file_permissions = /apps/bareftp/general/preserve_file_permissions
+remote_charset = /apps/bareftp/general/remote_charset
+show_hidden_files = /apps/bareftp/general/show_hidden_files
+simultaneous_transfers = /apps/bareftp/general/simultanuous_transfers
+max_connections = /apps/bareftp/general/max_connections
+use_gnome_keyring = /apps/bareftp/general/use_gnome_keyring
+timeout = /apps/bareftp/net/timeout
+default_protocol = /apps/bareftp/net/default_protocol
+
+[apps.bareftp.gui]
+vpaned_pos = /apps/bareftp/gui/vpaned_pos
+hpaned_pos = /apps/bareftp/gui/hpaned_pos
+maximized = /apps/bareftp/gui/maximized
+right_column_widths = /apps/bareftp/gui/right_column_widths
+left_column_widths = /apps/bareftp/gui/left_column_widths
+
+[apps.bareftp.ftp]
+email = /apps/bareftp/ftp/email
+empty_anon_pass_email = /apps/bareftp/ftp/empty_anon_pass_email
+passive_mode = /apps/bareftp/ftp/passive_mode
+default_port = /apps/bareftp/ftp/default_port
+
+[apps.bareftp.ftps]
+data_protection_level = /apps/bareftp/ftps/data_protection_level
+verify_server_certificate = /apps/bareftp/ftps/verify_server_certificate

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=bareFTP
+_GenericName=File Transfer Client
+_Comment=Transfer files using the FTP, FTPS or SFTP protocol
+Exec=bareftp
+TryExec=bareftp
+Icon=bareftp
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;

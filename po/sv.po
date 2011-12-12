@@ -1,0 +1,530 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 21:45+0200\n"
+"PO-Revision-Date: 2011-02-16 23:55+0000\n"
+"Last-Translator: yeager <po@danielnylander.se>\n"
+"Language-Team: Swedish <>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../bareftp/mainwin.py:31
+msgid "_About"
+msgstr "_Om"
+
+#: ../bareftp/mainwin.py:32
+msgid "_Quit"
+msgstr "A_vsluta"
+
+#: ../bareftp/mainwin.py:195
+msgid "File Transfer Client"
+msgstr "Filöverföringsklient"
+
+#~ msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+#~ msgstr "Överför filer via protokollen FTP, FTPS eller SFTP."
+
+#~ msgid "Connect"
+#~ msgstr "Anslut"
+
+#~ msgid "Disconnect"
+#~ msgstr "Koppla från"
+
+#~ msgid "_File"
+#~ msgstr "_Arkiv"
+
+#~ msgid "_Help"
+#~ msgstr "_Hjälp"
+
+#~ msgid "_Edit"
+#~ msgstr "R_edigera"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "_Inställningar"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Bokmärken"
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "Redigera bokmärken"
+
+#~ msgid "Add bookmark"
+#~ msgstr "Lägg till bokmärken"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Bokmärken"
+
+#~ msgid "_Tools"
+#~ msgstr "Ver_ktyg"
+
+#~ msgid "Synchronized browsing"
+#~ msgstr "Synkroniserad bläddring"
+
+#~ msgid "Host:"
+#~ msgstr "Värd:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User:"
+#~ msgstr "Användare:"
+
+#~ msgid "Password:"
+#~ msgstr "Lösenord:"
+
+#~ msgid "_Disconnect"
+#~ msgstr "Koppla _från"
+
+#~ msgid "C_onnect"
+#~ msgstr "A_nslut"
+
+#~ msgid "Abort"
+#~ msgstr "Avbryt"
+
+#~ msgid "Transfers"
+#~ msgstr "Överföringar"
+
+#~ msgid "Messages"
+#~ msgstr "Meddelanden"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled."
+#~ msgstr ""
+#~ "Kommunikationen med Gnome-nyckelring misslyckades och har blivit "
+#~ "inaktiverad."
+
+#~ msgid "If the problem persists, you may want to disable it permanently"
+#~ msgstr "Om problemen fortsätter kan du inaktivera det permanent"
+
+#~ msgid "Overwrite"
+#~ msgstr "Skriv över"
+
+#~ msgid "Resume"
+#~ msgstr "Återuppta"
+
+#~ msgid "Append"
+#~ msgstr "Lägg till"
+
+#~ msgid "Skip"
+#~ msgstr "Hoppa över"
+
+#~ msgid "File"
+#~ msgstr "Fil"
+
+#~ msgid "Local size"
+#~ msgstr "Lokal storlek"
+
+#~ msgid "Remote size"
+#~ msgstr "Fjärrstorlek"
+
+#~ msgid "Action"
+#~ msgstr "Åtgärd"
+
+#~ msgid "File operations"
+#~ msgstr "Filåtgärder"
+
+#~ msgid ""
+#~ "The following files exists on both the local and remote file system.\n"
+#~ "Right-click to choose what action you want to take, or set an action for "
+#~ "all items under the list."
+#~ msgstr ""
+#~ "Följande filer finns på både det lokala och det fjärranslutna "
+#~ "filsystemet.\n"
+#~ "Högerklicka för att välja vilken åtgärd du vill vidta, eller en åtgärd "
+#~ "för alla objekt i listan."
+
+#~ msgid "_Apply for all"
+#~ msgstr "_Tillämpa på alla"
+
+#~ msgid "<b>File operations</b>"
+#~ msgstr "<b>Filåtgärder</b>"
+
+#~ msgid "Password"
+#~ msgstr "Lösenord"
+
+#~ msgid "Permissions"
+#~ msgstr "Rättigheter"
+
+#~ msgid "Read"
+#~ msgstr "Läs"
+
+#~ msgid "Write"
+#~ msgstr "Skriv"
+
+#~ msgid "Execute"
+#~ msgstr "Kör"
+
+#~ msgid "<b>User:</b>"
+#~ msgstr "<b>Användare:</b>"
+
+#~ msgid "<b>Group:</b>"
+#~ msgstr "<b>Grupp:</b>"
+
+#~ msgid "<b>Others:</b>"
+#~ msgstr "<b>Övriga:</b>"
+
+#~ msgid "<b>Permissions</b>"
+#~ msgstr "<b>Rättigheter</b>"
+
+#~ msgid ""
+#~ "This is an unhandled exception. Please consider filing a bug report on \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Please include the exception details below."
+#~ msgstr ""
+#~ "Detta är ett ohanterbart undantag. Överväg att skicka in en felrapport "
+#~ "på\n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Inkludera nedanstående information om undantaget."
+
+#~ msgid "Details"
+#~ msgstr "Detaljer"
+
+#~ msgid "Send command"
+#~ msgstr "Skicka kommando"
+
+#~ msgid "Command:"
+#~ msgstr "Kommando:"
+
+#~ msgid "Open Directory"
+#~ msgstr "Öppna katalog"
+
+#~ msgid "New Directory"
+#~ msgstr "Ny katalog"
+
+#~ msgid "Refresh"
+#~ msgstr "Uppdatera"
+
+#~ msgid "Download"
+#~ msgstr "Hämta"
+
+#~ msgid "Upload"
+#~ msgstr "Skicka"
+
+#~ msgid "Rename"
+#~ msgstr "Byt namn"
+
+#~ msgid "Delete"
+#~ msgstr "Ta bort"
+
+#~ msgid "Filename"
+#~ msgstr "Filnamn"
+
+#~ msgid "Size"
+#~ msgstr "Storlek"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "User"
+#~ msgstr "Användare"
+
+#~ msgid "Group"
+#~ msgstr "Grupp"
+
+#~ msgid "Parent Directory"
+#~ msgstr "Föräldrakatalog"
+
+#~ msgid "A directory named {0} already exists"
+#~ msgstr "En katalog med namnet {0} finns redan"
+
+#~ msgid "A file named {0} already exists"
+#~ msgstr "En fil med namnet {0} finns redan"
+
+#~ msgid "Directory {0} not found"
+#~ msgstr "Katalogen {0} hittades inte"
+
+#~ msgid "Are you sure you want to delete the selected files?"
+#~ msgstr "Är du säker på att du vill ta bort de markerade filerna?"
+
+#~ msgid "Delete failed. Access denied"
+#~ msgstr "Borttagning misslyckad. Åtkomst nekad"
+
+#~ msgid "Access to the path {0} is denied"
+#~ msgstr "Åtkomst till sökvägen {0} nekades"
+
+#~ msgid "Can't change directory when not connected"
+#~ msgstr "Kan inte byta katalog i nedkopplat läge"
+
+#~ msgid "Retrieving directory contents.."
+#~ msgstr "Hämtar kataloginnehåll.."
+
+#~ msgid "Deleting.."
+#~ msgstr "Tar bort.."
+
+#~ msgid "{0} already exists. Overwrite?"
+#~ msgstr "{0} finns redan. Skriv över?"
+
+#~ msgid "New folder"
+#~ msgstr "Ny mapp"
+
+#~ msgid "New bookmark"
+#~ msgstr "Nytt bokmärke"
+
+#~ msgid "Backup Bookmarks"
+#~ msgstr "Säkerhetskopiera bokmärken"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Save"
+#~ msgstr "Spara"
+
+#~ msgid "Restore Bookmarks"
+#~ msgstr "Återställ bokmärken"
+
+#~ msgid "Open"
+#~ msgstr "Öppna"
+
+#~ msgid "Are you sure you want to delete {0}?"
+#~ msgstr "Är du säker på att du vill ta bort {0}?"
+
+#~ msgid "<i><b>Note:</b> Password are currently stored in clear text</i>"
+#~ msgstr ""
+#~ "<i><b>Observera:</b> Lösenord sparas för närvarande i klartext. </i>"
+
+#~ msgid ""
+#~ "If you don't save the password you will be prompted for it when "
+#~ "connecting."
+#~ msgstr ""
+#~ "Väljer du att inte spara dina lösenord kommer du att bli tillfrågad om "
+#~ "dessa vid nästa anslutning."
+
+#~ msgid "This bareFTP is built without GnomeKeyring support."
+#~ msgstr "Denna versionen av bareFTP har byggts utan stöd för GnomeKeyring."
+
+#~ msgid ""
+#~ "You can enable Gnome Keyring password storage in Preferences to encrypt "
+#~ "your passwords."
+#~ msgstr ""
+#~ "Du kan kryptera dina lösenord genom att aktivera GnomeKeyring i "
+#~ "inställningar."
+
+#~ msgid "New Bookmark"
+#~ msgstr "Nytt bokmärke"
+
+#~ msgid "New Folder"
+#~ msgstr "Ny mapp"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "Importera bokmärken"
+
+#~ msgid "Name:"
+#~ msgstr "Namn:"
+
+#~ msgid "<b>Bookmark</b>"
+#~ msgstr "<b>Bokmärke</b>"
+
+#~ msgid "Protocol:"
+#~ msgstr "Protokoll:"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Anslutning</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autentisering</b>"
+
+#~ msgid "General"
+#~ msgstr "Allmänt"
+
+#~ msgid "Remote Charset"
+#~ msgstr "Värdens teckenuppsättning"
+
+#~ msgid "<b>Character encoding</b>"
+#~ msgstr "<b>Teckenkodning</b>"
+
+#~ msgid "Show hidden files"
+#~ msgstr "Visa dolda filer"
+
+#~ msgid "<b>File view</b>"
+#~ msgstr "<b>Filvy</b>"
+
+#~ msgid "Passive file transfers"
+#~ msgstr "Passiv filöverföring"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP</b>"
+
+#~ msgid "Encrypt Data Channel"
+#~ msgstr "Kryptera datakanal"
+
+#~ msgid "<b>FTPS</b>"
+#~ msgstr "<b>FTPS</b>"
+
+#~ msgid "Local path"
+#~ msgstr "Lokal sökväg"
+
+#~ msgid "Remote path"
+#~ msgstr "Fjärrsökväg"
+
+#~ msgid "Syncronized browsing"
+#~ msgstr "Synkroniserad bläddring"
+
+#~ msgid "<b>Paths</b>"
+#~ msgstr "<b>Sökvägar</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "Advancerat"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Mapp</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Inställningar"
+
+#~ msgid "Enable directory cache"
+#~ msgstr "Tillåt katalogcache"
+
+#~ msgid "Message font:"
+#~ msgstr "Typsnitt för meddelanden:"
+
+#~ msgid "Enable logging"
+#~ msgstr "Aktivera loggning"
+
+#~ msgid "<b>Message view</b>"
+#~ msgstr "<b>Meddelandevy</b>"
+
+#~ msgid "Preserve file permissions"
+#~ msgstr "Bevara filrättigheter"
+
+#~ msgid "<b>File transfer</b>"
+#~ msgstr "<b>Filöverföring</b>"
+
+#~ msgid "Use Gnome Keyring for passwords"
+#~ msgstr "Använd Gnome-keyring för lösenord"
+
+#~ msgid "<b>Bookmarks</b>"
+#~ msgstr "<b>Bokmärken</b>"
+
+#~ msgid "Default protocol:"
+#~ msgstr "Standardprotokoll: "
+
+#~ msgid "<b>Protocol</b>"
+#~ msgstr "<b>Protokoll</b>"
+
+#~ msgid "Network timeout (s):"
+#~ msgstr "Nätverkstidsgräns (s):"
+
+#~ msgid "<b>Network</b>"
+#~ msgstr "<b>Nätverk</b>"
+
+#~ msgid "Do one transfer at a time"
+#~ msgstr "Överför en åt gången"
+
+#~ msgid "Maximum number of connections:"
+#~ msgstr "Maximalt antal anslutningar:"
+
+#~ msgid "Connection"
+#~ msgstr "Anslutning"
+
+#~ msgid "Default port:"
+#~ msgstr "Standardport:"
+
+#~ msgid "<b>FTP Connection</b>"
+#~ msgstr "<b>FTP-anslutning</b>"
+
+#~ msgid "<b>File transfers</b>"
+#~ msgstr "<b>Filöverföringar</b>"
+
+#~ msgid "Translate empty user to 'anonymous'"
+#~ msgstr "Översätt tomma användare till \"anonymous\""
+
+#~ msgid "Use email as anonymous password"
+#~ msgstr "Använd e-post som anonymt lösenord"
+
+#~ msgid "Email address:"
+#~ msgstr "E-postadress:"
+
+#~ msgid "<b>Anonymous login</b>"
+#~ msgstr "<b>Anonym inloggning</b>"
+
+#~ msgid "<b>Protection level</b>"
+#~ msgstr "<b>Skyddsnivå</b>"
+
+#~ msgid "Verify server certificate"
+#~ msgstr "Verifiera servercertifikat"
+
+#~ msgid "<b>Certificates</b>"
+#~ msgstr "<b>Certifikat</b>"
+
+#~ msgid "<b>SFTP Connection</b>"
+#~ msgstr "<b>SFTP-anslutning</b>"
+
+#~ msgid "Program path:"
+#~ msgstr "Programmets sökväg:"
+
+#~ msgid "<b>SSH</b>"
+#~ msgstr "<b>SSH</b>"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled"
+#~ msgstr ""
+#~ "Kommunikation med GnomeKeyring har misslyckats och har inaktiverats."
+
+#~ msgid "Unknown encoding {0}. Check spelling."
+#~ msgstr "Okänd kodning {0}. Kontrollera stavning."
+
+#~ msgid "Move up"
+#~ msgstr "Flytta uppåt"
+
+#~ msgid "Move down"
+#~ msgstr "Flytta nedåt"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Progress"
+#~ msgstr "Förlopp"
+
+#~ msgid "Transfered bytes"
+#~ msgstr "Överförda byte"
+
+#~ msgid "Transfer rate"
+#~ msgstr "Överföringshastighet"
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid "Transfer time"
+#~ msgstr "Överföringstid"
+
+#~ msgid "Time Elapsed"
+#~ msgstr "Förfluten tid"
+
+#~ msgid "SSH not found. Check your ssh program path!"
+#~ msgstr "SSH hittades inte. Kontrollera programmets sökväg!"
+
+#~ msgid "Clear finished transfers"
+#~ msgstr "Töm färdiga överföringar"
+
+#~ msgid "Syncronized browsing disabled"
+#~ msgstr "Synkroniserad bläddring inaktiverad"
+
+#~ msgid "Connecting"
+#~ msgstr "Ansluter"
+
+#~ msgid "Invalid port number"
+#~ msgstr "Ogiltigt portnummer"
+
+#~ msgid "Operation aborted"
+#~ msgstr "Åtgärden avbruten"
+
+#~ msgid "Connected"
+#~ msgstr "Ansluten"
+
+#~ msgid "You need to connect to a remote site first"
+#~ msgstr "Du måste ansluta till en fjärrserver först"
+
+#~ msgid ""
+#~ "This will close the current connection. Do you want to continue "
+#~ "connecting?"
+#~ msgstr ""
+#~ "Detta kommer att stänga aktuell anslutning. Vill du fortsätta att ansluta?"
+
+#~ msgid "Syncronized browsing enabled"
+#~ msgstr "Synkroniserad bläddring aktiverad"

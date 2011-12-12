@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="apps.bareftp" path="/apps/bareftp/">
+  	<key type="b" name="enable-directory-cache">
+  		<default>true</default>
+  		<summary>Enable directory cache</summary>
+  		<description></description>
+  	</key>
+  	<key type="b" name="preserve-file-permissions">
+  		<default>true</default>
+  		<summary>Preserve file permissions</summary>
+  		<description></description>
+  	</key>
+  	<key type="s" name="remote-charset">
+  		<default>"utf-8"</default>
+  		<summary>Remote charset</summary>
+  		<description></description>
+  	</key>
+  	<key type="b" name="show-hidden-files">
+  		<default>false</default>
+  		<summary>Show hidden files</summary>
+  		<description></description>
+  	</key>
+  	<key type="b" name="simultaneous-transfers">
+  		<default>false</default>
+  		<summary>Simultaneous transfers</summary>
+  		<description></description>
+  	</key>
+  	<key type="i" name="max-connections">
+  		<default>3</default>
+  		<summary>Maximum number of simultaneous connections</summary>
+  		<description></description>
+  	</key>
+  	<key type="b" name="use-gnome-keyring">
+  		<default>true</default>
+  		<summary>Use Gnome Keyring</summary>
+  		<description></description>
+  	</key>
+  	<key type="i" name="timeout">
+  		<default>120000</default>
+  		<summary>Network timeout</summary>
+  		<description></description>
+  	</key>
+  	<key type="i" name="default-protocol">
+  		<default>1</default>
+  		<summary>Default protocol</summary>
+  		<description></description>
+  	</key>
+  	<key type="s" name="email">
+  		<default>""</default>
+  		<summary>"Email"</summary>
+  		<description></description>
+  	</key>
+  	<key type="b" name="empty-anon-pass-email">
+  		<default>true</default>
+  		<summary>Use email as anonymous password</summary>
+  		<description></description>
+  	</key>
+  	<key type="b" name="passive-mode">
+  		<default>true</default>
+  		<summary>FTP Passive Mode</summary>
+  		<description></description>
+  	</key>
+  	<key type="i" name="ftp-default-port">
+  		<default>21</default>
+  		<summary>Default FTP port</summary>
+  		<description></description>
+  	</key>
+  	<key type="i" name="sftp-default-port">
+  		<default>22</default>
+  		<summary>Default SSH port</summary>
+  		<description></description>
+  	</key>
+  	<key type="s" name="data-protection-level">
+  		<default>"C"</default>
+  		<summary>Data channel protection level</summary>
+  		<description></description>
+  	</key>
+  	<key type="b" name="verify-server-certificate">
+  		<default>true</default>
+  		<summary>Verify server certificate</summary>
+  		<description></description>
+  	</key>
+    <key type="i" name="vpaned-pos">
+      <default>500</default>
+      <summary>Vertical pane position</summary>
+      <description></description>
+    </key>
+    <key type="i" name="hpaned-pos">
+      <default>600</default>
+      <summary>Horizontal pane position</summary>
+      <description></description>
+    </key>
+    <key type="b" name="maximized">
+      <default>false</default>
+      <summary>Maximized</summary>
+      <description></description>
+    </key>
+    <key type="s" name="right-column-widths">
+      <default>""</default>
+      <summary>Left side column widths</summary>
+      <description></description>
+    </key>
+    <key type="s" name="left-column-widths">
+      <default>""</default>
+      <summary>Right side column widths</summary>
+      <description></description>
+    </key>
+  </schema>
+  
+</schemalist>

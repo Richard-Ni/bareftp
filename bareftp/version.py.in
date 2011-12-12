@@ -1,0 +1,2 @@
+version = '@VERSION@'
+bareftp_datadir = '@expanded_datadir@/bareftp'

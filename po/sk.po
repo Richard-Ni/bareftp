@@ -1,0 +1,480 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 21:45+0200\n"
+"PO-Revision-Date: 2011-02-16 23:55+0000\n"
+"Last-Translator: chreide <christian@eide-itc.no>\n"
+"Language-Team: Slovak <None>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+
+#: ../bareftp/mainwin.py:31
+msgid "_About"
+msgstr "_O programe"
+
+#: ../bareftp/mainwin.py:32
+msgid "_Quit"
+msgstr "_Skončiť"
+
+#: ../bareftp/mainwin.py:195
+msgid "File Transfer Client"
+msgstr "FTP klient"
+
+#~ msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+#~ msgstr "Transfer súborov používajúci FTP, FTPS alebo SFTP protokol"
+
+#~ msgid "Connect"
+#~ msgstr "Pripojiť"
+
+#~ msgid "Disconnect"
+#~ msgstr "Odpojiť"
+
+#~ msgid "_File"
+#~ msgstr "_Súbor"
+
+#~ msgid "_Help"
+#~ msgstr "_Pomoc"
+
+#~ msgid "_Edit"
+#~ msgstr "_Upraviť"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "Vl_astnosti"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Záložky"
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "Upraviť záložky"
+
+#~ msgid "Add bookmark"
+#~ msgstr "Pridať záložku"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Záložky"
+
+#~ msgid "_Tools"
+#~ msgstr "_Nástroje"
+
+#~ msgid "Synchronized browsing"
+#~ msgstr "Synchronizované prehliadanie"
+
+#~ msgid "Host:"
+#~ msgstr "Host:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User:"
+#~ msgstr "Užívateľ:"
+
+#~ msgid "Password:"
+#~ msgstr "Heslo:"
+
+#~ msgid "_Disconnect"
+#~ msgstr "_Odpojiť"
+
+#~ msgid "C_onnect"
+#~ msgstr "P_ripojiť"
+
+#~ msgid "Abort"
+#~ msgstr "Prerušiť"
+
+#~ msgid "Transfers"
+#~ msgstr "Prenosy"
+
+#~ msgid "Messages"
+#~ msgstr "Správy"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled."
+#~ msgstr "Komunikácia s Gnome kľúčenkou zlyhala a bola zrušená"
+
+#~ msgid "If the problem persists, you may want to disable it permanently"
+#~ msgstr "Ak problém pretrváva, môžete to zrušiť na stálo"
+
+#~ msgid "Overwrite"
+#~ msgstr "Prepísať"
+
+#~ msgid "Resume"
+#~ msgstr "Pokračovať"
+
+#~ msgid "Append"
+#~ msgstr "Pripojiť"
+
+#~ msgid "Skip"
+#~ msgstr "Preskočiť"
+
+#~ msgid "File"
+#~ msgstr "Súbor"
+
+#~ msgid "Local size"
+#~ msgstr "Lokálna veľkosť"
+
+#~ msgid "Remote size"
+#~ msgstr "Vzdialená veľkosť"
+
+#~ msgid "Action"
+#~ msgstr "Akcia"
+
+#~ msgid "File operations"
+#~ msgstr "Súborové operácie"
+
+#~ msgid ""
+#~ "The following files exists on both the local and remote file system.\n"
+#~ "Right-click to choose what action you want to take, or set an action for "
+#~ "all items under the list."
+#~ msgstr ""
+#~ "Nasledujúce súbory už existujú na lokálnom aj vzdialenom systéme. \n"
+#~ "Kliknike pravým a zvolte akciu"
+
+#~ msgid "_Apply for all"
+#~ msgstr "Aplikovať na všetky"
+
+#~ msgid "<b>File operations</b>"
+#~ msgstr "Súborové operácie"
+
+#~ msgid "Password"
+#~ msgstr "Heslo"
+
+#~ msgid "Permissions"
+#~ msgstr "Práva"
+
+#~ msgid "Read"
+#~ msgstr "Čítanie"
+
+#~ msgid "Write"
+#~ msgstr "Zápis"
+
+#~ msgid "Execute"
+#~ msgstr "Vykonanie"
+
+#~ msgid "<b>User:</b>"
+#~ msgstr "<b>Užívateľ:</b>"
+
+#~ msgid "<b>Group:</b>"
+#~ msgstr "<b>Skupina:</b>"
+
+#~ msgid "<b>Others:</b>"
+#~ msgstr "<b>Ostatný:</b>"
+
+#~ msgid "<b>Permissions</b>"
+#~ msgstr "<b>Práva</b>"
+
+#~ msgid ""
+#~ "This is an unhandled exception. Please consider filing a bug report on \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Please include the exception details below."
+#~ msgstr ""
+#~ "Chyba v programe. Prosím oznámte bug na \n"
+#~ "<b>http://www.bareftp.org/devel</b>"
+
+#~ msgid "Details"
+#~ msgstr "Detaily"
+
+#~ msgid "Send command"
+#~ msgstr "Odoslaný príkaz"
+
+#~ msgid "Command:"
+#~ msgstr "Príkaz:"
+
+#~ msgid "Open Directory"
+#~ msgstr "Otvoriť Adresár"
+
+#~ msgid "New Directory"
+#~ msgstr "Nový Adresár"
+
+#~ msgid "Refresh"
+#~ msgstr "Obnoviť"
+
+#~ msgid "Download"
+#~ msgstr "Stiahnuť"
+
+#~ msgid "Upload"
+#~ msgstr "Nahrať"
+
+#~ msgid "Rename"
+#~ msgstr "Premenovať"
+
+#~ msgid "Delete"
+#~ msgstr "Vymazať"
+
+#~ msgid "Filename"
+#~ msgstr "Názov súboru"
+
+#~ msgid "Size"
+#~ msgstr "Veľkosť"
+
+#~ msgid "Date"
+#~ msgstr "Dátum"
+
+#~ msgid "User"
+#~ msgstr "Užívateľ"
+
+#~ msgid "Group"
+#~ msgstr "Skupina"
+
+#~ msgid "Parent Directory"
+#~ msgstr "Predošlý adresár"
+
+#~ msgid "A directory named {0} already exists"
+#~ msgstr "Adresár nazvaný {0} už existuje"
+
+#~ msgid "Directory {0} not found"
+#~ msgstr "Adresár {0} nebol nájdený"
+
+#~ msgid "Are you sure you want to delete the selected files?"
+#~ msgstr "Ste si istý, že chcete zmazať vybrané súbory?"
+
+#~ msgid "Delete failed. Access denied"
+#~ msgstr "Mazanie zlyhalo. Prístup zamietnutý"
+
+#~ msgid "Access to the path {0} is denied"
+#~ msgstr "Prístup do cesty {0} je zakázany"
+
+#~ msgid "Can't change directory when not connected"
+#~ msgstr "Nie je možné zmeniť adresár bez pripojenia"
+
+#~ msgid "Retrieving directory contents.."
+#~ msgstr "Príjimam obsah.."
+
+#~ msgid "Deleting.."
+#~ msgstr "Mazanie.."
+
+#~ msgid "{0} already exists. Overwrite?"
+#~ msgstr "{0} už existuje. Prepísať?"
+
+#~ msgid "New folder"
+#~ msgstr "Nový priečinok"
+
+#~ msgid "New bookmark"
+#~ msgstr "Nová záložka"
+
+#~ msgid "Backup Bookmarks"
+#~ msgstr "Zálohovať záložky"
+
+#~ msgid "Cancel"
+#~ msgstr "Zavrieť"
+
+#~ msgid "Save"
+#~ msgstr "Uložiť"
+
+#~ msgid "Restore Bookmarks"
+#~ msgstr "Obnoviť záložky"
+
+#~ msgid "Open"
+#~ msgstr "Otvoriť"
+
+#~ msgid "Are you sure you want to delete {0}?"
+#~ msgstr "Ste si istý, že chcete zmazať {0}?"
+
+#~ msgid "This bareFTP is built without GnomeKeyring support."
+#~ msgstr "Tento bareFTP je vytvorený bez podpory Gnome Kľúčenky"
+
+#~ msgid "New Bookmark"
+#~ msgstr "Nová záložka"
+
+#~ msgid "New Folder"
+#~ msgstr "Nový priečinok"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "Importnúť záložky"
+
+#~ msgid "Name:"
+#~ msgstr "Meno:"
+
+#~ msgid "<b>Bookmark</b>"
+#~ msgstr "<b>Záložka</b>"
+
+#~ msgid "Protocol:"
+#~ msgstr "Protokol:"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Pripojenie</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Overenie</b>"
+
+#~ msgid "General"
+#~ msgstr "Hlavné"
+
+#~ msgid "Remote Charset"
+#~ msgstr "Vzdialená znaková sada"
+
+#~ msgid "<b>Character encoding</b>"
+#~ msgstr "<b>Kódovanie znakov</b>"
+
+#~ msgid "Show hidden files"
+#~ msgstr "Ukázať skryté súbory"
+
+#~ msgid "<b>File view</b>"
+#~ msgstr "<b>Zobrazenie súboru</b>"
+
+#~ msgid "Passive file transfers"
+#~ msgstr "Pasívny prenos súborov"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP<b>"
+
+#~ msgid "Encrypt Data Channel"
+#~ msgstr "Šifrovať dátový kanál"
+
+#~ msgid "<b>FTPS</b>"
+#~ msgstr "<b>FTPS</b>"
+
+#~ msgid "Local path"
+#~ msgstr "Lokálna cesta"
+
+#~ msgid "Remote path"
+#~ msgstr "Vzdialená cesta"
+
+#~ msgid "<b>Paths</b>"
+#~ msgstr "<b>Cesty</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "Pokročilé"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Priečinok</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Vlastnosti"
+
+#~ msgid "Enable directory cache"
+#~ msgstr "Povoliť priečinkovú cache"
+
+#~ msgid "<b>Message view</b>"
+#~ msgstr "<b>Zobrazovanie správ</b>"
+
+#~ msgid "Preserve file permissions"
+#~ msgstr "Zachovať práva súboru"
+
+#~ msgid "<b>File transfer</b>"
+#~ msgstr "<b>Prenos súboru</b>"
+
+#~ msgid "Use Gnome Keyring for passwords"
+#~ msgstr "Použiť Gnome Keyring pre heslá"
+
+#~ msgid "<b>Bookmarks</b>"
+#~ msgstr "<b>Záložky</b>"
+
+#~ msgid "Default protocol:"
+#~ msgstr "Štandardný protokol"
+
+#~ msgid "<b>Protocol</b>"
+#~ msgstr "<b>Protokol</b>"
+
+#~ msgid "<b>Network</b>"
+#~ msgstr "<b>Siete</b>"
+
+#~ msgid "Do one transfer at a time"
+#~ msgstr "Len jeden prenos za čas"
+
+#~ msgid "Maximum number of connections:"
+#~ msgstr "Maximálne množstvo pripojení:"
+
+#~ msgid "Connection"
+#~ msgstr "Pripojenie"
+
+#~ msgid "Default port:"
+#~ msgstr "Štandardný port"
+
+#~ msgid "<b>FTP Connection</b>"
+#~ msgstr "<b>FTP Pripojenie</b>"
+
+#~ msgid "<b>File transfers</b>"
+#~ msgstr "<b>Prenosy súboru</b>"
+
+#~ msgid "Email address:"
+#~ msgstr "Email adresa"
+
+#~ msgid "<b>Anonymous login</b>"
+#~ msgstr "<b>Anonymné prihlásenie</b>"
+
+#~ msgid "<b>Protection level</b>"
+#~ msgstr "<b>Úroveň ochrany</b>"
+
+#~ msgid "Verify server certificate"
+#~ msgstr "Preveriť serverový certifikát"
+
+#~ msgid "<b>Certificates</b>"
+#~ msgstr "<b>Certifikáty</b>"
+
+#~ msgid "<b>SFTP Connection</b>"
+#~ msgstr "<b>SFTP pripojenie</b>"
+
+#~ msgid "Program path:"
+#~ msgstr "Cesta programu:"
+
+#~ msgid "<b>SSH</b>"
+#~ msgstr "<b>SSH</b>"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled"
+#~ msgstr "Komunikácia s Gnome kľúčenkov zlyhala a bola zrušená"
+
+#~ msgid "Unknown encoding {0}. Check spelling."
+#~ msgstr "Neznáme kódovanie {0}. Skontroľujte pravopis"
+
+#~ msgid "Move up"
+#~ msgstr "Presunúť hore"
+
+#~ msgid "Move down"
+#~ msgstr "Presunúť dole"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Progress"
+#~ msgstr "Proces"
+
+#~ msgid "Transfered bytes"
+#~ msgstr "Prenesených bajtov"
+
+#~ msgid "Transfer rate"
+#~ msgstr "Rýchlosť prenosu"
+
+#~ msgid "Time"
+#~ msgstr "čas"
+
+#~ msgid "Transfer time"
+#~ msgstr "Čas prenosu"
+
+#~ msgid "Time Elapsed"
+#~ msgstr "Uplynulý čas"
+
+#~ msgid "SSH not found. Check your ssh program path!"
+#~ msgstr "SSH nebol nájdený. Skontroľujte cestu do programu ssh"
+
+#~ msgid "Clear finished transfers"
+#~ msgstr "Vyčistiť dokončené prenosy"
+
+#~ msgid "Syncronized browsing disabled"
+#~ msgstr "Synchronizované prehliadanie je zakázané"
+
+#~ msgid "Connecting"
+#~ msgstr "Pripojovanie"
+
+#~ msgid "Operation aborted"
+#~ msgstr "Operácia zrušená"
+
+#~ msgid "Connected"
+#~ msgstr "Pripojené"
+
+#~ msgid "You need to connect to a remote site first"
+#~ msgstr "Najprv sa musíte pripojiť na vzdialenú stránku"
+
+#~ msgid ""
+#~ "This will close the current connection. Do you want to continue "
+#~ "connecting?"
+#~ msgstr "Toto zruší súčasné pripojenie. Chcete pokročovať v pripojení?"
+
+#~ msgid "Syncronized browsing enabled"
+#~ msgstr "Synchronizované prehliadanie povolené"

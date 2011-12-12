@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 21:45+0200\n"
+"PO-Revision-Date: 2011-02-16 23:55+0000\n"
+"Last-Translator: chreide <christian@eide-itc.no>\n"
+"Language-Team: Russian <>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: ../bareftp/mainwin.py:31
+msgid "_About"
+msgstr "_О программе"
+
+#: ../bareftp/mainwin.py:32
+msgid "_Quit"
+msgstr "В_ыход"
+
+#: ../bareftp/mainwin.py:195
+msgid "File Transfer Client"
+msgstr "Программа передачи файлов"
+
+#~ msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+#~ msgstr "Передача файлов по протоколам FTP, FTPS или SFTP"
+
+#~ msgid "Connect"
+#~ msgstr "Соединение"
+
+#~ msgid "Disconnect"
+#~ msgstr "Разрыв соединения"
+
+#~ msgid "_File"
+#~ msgstr "_Файл"
+
+#~ msgid "_Help"
+#~ msgstr "_Справка"
+
+#~ msgid "_Edit"
+#~ msgstr "_Правка"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "_Настройки"
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "Из_менить"
+
+#~ msgid "Add bookmark"
+#~ msgstr "Добавить"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Закладки"
+
+#~ msgid "Host:"
+#~ msgstr "Сервер:"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "User:"
+#~ msgstr "Имя:"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "_Disconnect"
+#~ msgstr "_Разъединение"
+
+#~ msgid "C_onnect"
+#~ msgstr "С_оединение"
+
+#~ msgid "Abort"
+#~ msgstr "Прервать"
+
+#~ msgid "Transfers"
+#~ msgstr "Передачи"
+
+#~ msgid "Messages"
+#~ msgstr "Сообщения"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled."
+#~ msgstr "Не удалось связаться с Брелком Gnome. Функция будет отключена."
+
+#~ msgid "If the problem persists, you may want to disable it permanently"
+#~ msgstr "Если это происходит постоянно, вы можете отключить эту функцию."
+
+#~ msgid "Overwrite"
+#~ msgstr "Заменить"
+
+#~ msgid "Resume"
+#~ msgstr "Докачать"
+
+#~ msgid "Append"
+#~ msgstr "Дописать"
+
+#~ msgid "Skip"
+#~ msgstr "Пропустить"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "Local size"
+#~ msgstr "Локальный"
+
+#~ msgid "Remote size"
+#~ msgstr "Удаленный"
+
+#~ msgid "Action"
+#~ msgstr "Действие"
+
+#~ msgid "File operations"
+#~ msgstr "Операция над файлами"
+
+#~ msgid ""
+#~ "The following files exists on both the local and remote file system.\n"
+#~ "Right-click to choose what action you want to take, or set an action for "
+#~ "all items under the list."
+#~ msgstr ""
+#~ "Следующие файлы присутствуют на обоих системах.\n"
+#~ "Выберите нужное действие правым щелчком, или выберите его для всех "
+#~ "элементов списка сразу."
+
+#~ msgid "_Apply for all"
+#~ msgstr "Применить ко _всем"
+
+#~ msgid "<b>File operations</b>"
+#~ msgstr "<b>Операции над файлами</b>"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Permissions"
+#~ msgstr "Разрешения"
+
+#~ msgid "Read"
+#~ msgstr "Чтение"
+
+#~ msgid "Write"
+#~ msgstr "Запись"
+
+#~ msgid "Execute"
+#~ msgstr "Исполнение"
+
+#~ msgid "<b>User:</b>"
+#~ msgstr "<b>Владелец:</b>"
+
+#~ msgid "<b>Group:</b>"
+#~ msgstr "<b>Группа:</b>"
+
+#~ msgid "<b>Others:</b>"
+#~ msgstr "<b>Остальные:</b>"
+
+#~ msgid "<b>Permissions</b>"
+#~ msgstr "<b>Разрешения</b>"
+
+#~ msgid "Details"
+#~ msgstr "Сведения"
+
+#~ msgid "Send command"
+#~ msgstr "Отправить команду"
+
+#~ msgid "Command:"
+#~ msgstr "Команда:"
+
+#~ msgid "Open Directory"
+#~ msgstr "Перейти в каталог"
+
+#~ msgid "New Directory"
+#~ msgstr "Создать каталог"
+
+#~ msgid "Refresh"
+#~ msgstr "Обновить список"
+
+#~ msgid "Download"
+#~ msgstr "Загрузить"
+
+#~ msgid "Upload"
+#~ msgstr "Передать"
+
+#~ msgid "Rename"
+#~ msgstr "Переименовать"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Filename"
+#~ msgstr "Имя файла"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "User"
+#~ msgstr "Владелец"
+
+#~ msgid "Group"
+#~ msgstr "Группа"
+
+#~ msgid "Parent Directory"
+#~ msgstr "Родительский каталог"
+
+#~ msgid "A directory named {0} already exists"
+#~ msgstr "Каталог {0} уже существует"
+
+#~ msgid "Directory {0} not found"
+#~ msgstr "Каталог {0} не найден"
+
+#~ msgid "Are you sure you want to delete the selected files?"
+#~ msgstr "Удалить выбранные файлы?"
+
+#~ msgid "Delete failed. Access denied"
+#~ msgstr "Ошибка при удалении. Доступ запрещен"
+
+#~ msgid "Access to the path {0} is denied"
+#~ msgstr "Доступ к пути {0} запрещен"
+
+#~ msgid "Can't change directory when not connected"
+#~ msgstr "Нельзя сменить каталог при отсутствии соединения"
+
+#~ msgid "{0} already exists. Overwrite?"
+#~ msgstr "{0} уже существует. Перезаписать?"
+
+#~ msgid "New folder"
+#~ msgstr "Новая папка"
+
+#~ msgid "New bookmark"
+#~ msgstr "Новая закладка"
+
+#~ msgid "Backup Bookmarks"
+#~ msgstr "Архивация закладок"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Restore Bookmarks"
+#~ msgstr "Восстановление закладок"
+
+#~ msgid "Open"
+#~ msgstr "Открыть"
+
+#~ msgid "Are you sure you want to delete {0}?"
+#~ msgstr "Вы хотите удалить {0}?"
+
+#~ msgid "<i><b>Note:</b> Password are currently stored in clear text</i>"
+#~ msgstr "<i><b>Внимание:</b> Пароли хранятся без шифрования</i>"
+
+#~ msgid ""
+#~ "If you don't save the password you will be prompted for it when "
+#~ "connecting."
+#~ msgstr ""
+#~ "Если вы не сохраните пароль, то его придется указать при подключении."
+
+#~ msgid "This bareFTP is built without GnomeKeyring support."
+#~ msgstr "В этой сборке bareFTP нет поддержки Брелка Gnome."
+
+#~ msgid ""
+#~ "You can enable Gnome Keyring password storage in Preferences to encrypt "
+#~ "your passwords."
+#~ msgstr ""
+#~ "Для шифрования паролей храните их в Брелке Gnome. Включите эту "
+#~ "возможность в меню Настройки."
+
+#~ msgid "New Bookmark"
+#~ msgstr "Создать закладку"
+
+#~ msgid "New Folder"
+#~ msgstr "Создать папку"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "Импорт закладок"
+
+#~ msgid "Name:"
+#~ msgstr "Название:"
+
+#~ msgid "<b>Bookmark</b>"
+#~ msgstr "<b>Закладка</b>"
+
+#~ msgid "Protocol:"
+#~ msgstr "Протокол:"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Соединение</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Вход на сервер</b>"
+
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgid "Remote Charset"
+#~ msgstr "Кодировка удаленной системы"
+
+#~ msgid "<b>Character encoding</b>"
+#~ msgstr "<b>Кодировка символов</b>"
+
+#~ msgid "Show hidden files"
+#~ msgstr "Отображать скрытые файлы"
+
+#~ msgid "<b>File view</b>"
+#~ msgstr "<b>Список файлов</b>"
+
+#~ msgid "Passive file transfers"
+#~ msgstr "Пассивный режим передачи"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP</b>"
+
+#~ msgid "Encrypt Data Channel"
+#~ msgstr "Шифрование канала данных"
+
+#~ msgid "<b>FTPS</b>"
+#~ msgstr "<b>FTPS</b>"
+
+#~ msgid "Local path"
+#~ msgstr "Локальный"
+
+#~ msgid "Remote path"
+#~ msgstr "Удаленный"
+
+#~ msgid "<b>Paths</b>"
+#~ msgstr "<b>Пути</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "Дополнительные"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Папка</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Настройки"
+
+#~ msgid "Enable directory cache"
+#~ msgstr "Включить кэширование каталогов"
+
+#~ msgid "Message font:"
+#~ msgstr "Шрифт для сообщений:"
+
+#~ msgid "Enable logging"
+#~ msgstr "Запись журнала"
+
+#~ msgid "<b>Message view</b>"
+#~ msgstr "<b>Журнал сообщений</b>"
+
+#~ msgid "Preserve file permissions"
+#~ msgstr "Сохранять разрешения файлов"
+
+#~ msgid "<b>File transfer</b>"
+#~ msgstr "<b>Передача файлов</b>"
+
+#~ msgid "Use Gnome Keyring for passwords"
+#~ msgstr "Хранить пароли в брелке Gnome"
+
+#~ msgid "<b>Bookmarks</b>"
+#~ msgstr "<b>Закладки</b>"
+
+#~ msgid "Default protocol:"
+#~ msgstr "Протокол по умолчанию:"
+
+#~ msgid "<b>Protocol</b>"
+#~ msgstr "<b>Протокол</b>"
+
+#~ msgid "Network timeout (s):"
+#~ msgstr "Время простоя (с):"
+
+#~ msgid "<b>Network</b>"
+#~ msgstr "<b>Сеть</b>"
+
+#~ msgid "Do one transfer at a time"
+#~ msgstr "Поочередная передача"
+
+#~ msgid "Maximum number of connections:"
+#~ msgstr "Максимальное число соединений:"
+
+#~ msgid "Connection"
+#~ msgstr "Соединение"
+
+#~ msgid "Default port:"
+#~ msgstr "Порт по умолчанию:"
+
+#~ msgid "<b>FTP Connection</b>"
+#~ msgstr "<b>Соединение FTP</b>"
+
+#~ msgid "<b>File transfers</b>"
+#~ msgstr "<b>Передачи файлов</b>"
+
+#~ msgid "Translate empty user to 'anonymous'"
+#~ msgstr "Вход как anonymous при отсутствии имени"
+
+#~ msgid "Use email as anonymous password"
+#~ msgstr "Использовать адрес эл. почты в качестве пароля"
+
+#~ msgid "Email address:"
+#~ msgstr "Адрес:"
+
+#~ msgid "<b>Anonymous login</b>"
+#~ msgstr "<b>Анонимный вход</b>"
+
+#~ msgid "<b>Protection level</b>"
+#~ msgstr "<b>Защита</b>"
+
+#~ msgid "Verify server certificate"
+#~ msgstr "Проверка сертификата сервера"
+
+#~ msgid "<b>Certificates</b>"
+#~ msgstr "<b>Сертификаты</b>"
+
+#~ msgid "<b>SFTP Connection</b>"
+#~ msgstr "<b>Соединение SFTP</b>"
+
+#~ msgid "Program path:"
+#~ msgstr "Путь к программе:"
+
+#~ msgid "<b>SSH</b>"
+#~ msgstr "<b>SSH</b>"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled"
+#~ msgstr "Не удалось связаться с Брелком Gnome. Функция будет отключена."
+
+#~ msgid "Unknown encoding {0}. Check spelling."
+#~ msgstr "Неверная кодировка {0}."
+
+#~ msgid "Move up"
+#~ msgstr "Вверх"
+
+#~ msgid "Move down"
+#~ msgstr "Вниз"
+
+#~ msgid "Status"
+#~ msgstr "Состояние"
+
+#~ msgid "Progress"
+#~ msgstr "Завершено"
+
+#~ msgid "Transfered bytes"
+#~ msgstr "Передано байт"
+
+#~ msgid "Transfer rate"
+#~ msgstr "Скорость"
+
+#~ msgid "Time"
+#~ msgstr "Время"
+
+#~ msgid "Transfer time"
+#~ msgstr "Время передачи"
+
+#~ msgid "Time Elapsed"
+#~ msgstr "Прошло времени"
+
+#~ msgid "SSH not found. Check your ssh program path!"
+#~ msgstr "Программа SSH не найдена. Проверьте правильность указанного пути!"
+
+#~ msgid "Clear finished transfers"
+#~ msgstr "Скрыть завершенные передачи"
+
+#~ msgid "Operation aborted"
+#~ msgstr "Операция прервана"
+
+#~ msgid "You need to connect to a remote site first"
+#~ msgstr "Сначала необходимо подключиться к серверу"
+
+#~ msgid ""
+#~ "This will close the current connection. Do you want to continue "
+#~ "connecting?"
+#~ msgstr "Текущее соединение будет закрыто. Продолжить установку соединения?"

@@ -1,0 +1,9 @@
+bareFTP README
+==============
+
+This is the Python rewrite of bareFTP.
+Currently totally unusable!
+
+The old and stable C# implementation can be found at http://gitorious.org/bareftp
+
+See http://www.bareftp.org for more information.

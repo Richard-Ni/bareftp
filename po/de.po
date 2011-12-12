@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Daniel Päßler <daniel@paessler.org>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 21:45+0200\n"
+"PO-Revision-Date: 2011-02-16 23:55+0000\n"
+"Last-Translator: Daniel Päßler <daniel@paessler.org>\n"
+"Language-Team: German <>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../bareftp/mainwin.py:31
+msgid "_About"
+msgstr "_Über"
+
+#: ../bareftp/mainwin.py:32
+msgid "_Quit"
+msgstr "_Beenden"
+
+#: ../bareftp/mainwin.py:195
+msgid "File Transfer Client"
+msgstr "File Transfer Client"
+
+#~ msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+#~ msgstr "Übertrage Dateien mit den Protokollen FTP, FTPS und SFTP"
+
+#~ msgid "Connect"
+#~ msgstr "Verbinden"
+
+#~ msgid "Disconnect"
+#~ msgstr "Trennen"
+
+#~ msgid "_File"
+#~ msgstr "_Datei"
+
+#~ msgid "_Help"
+#~ msgstr "_Hilfe"
+
+#~ msgid "_Edit"
+#~ msgstr "B_earbeiten"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "Ein_stellungen"
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "Lesezeichen bearbeiten"
+
+#~ msgid "Add bookmark"
+#~ msgstr "Lesezeichen hinzufügen"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Lesezeichen"
+
+#~ msgid "Host:"
+#~ msgstr "Host:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User:"
+#~ msgstr "Benutzer:"
+
+#~ msgid "Password:"
+#~ msgstr "Passwort:"
+
+#~ msgid "_Disconnect"
+#~ msgstr "_Trennen"
+
+#~ msgid "C_onnect"
+#~ msgstr "_Verbinden"
+
+#~ msgid "Abort"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Transfers"
+#~ msgstr "Übertragungen"
+
+#~ msgid "Messages"
+#~ msgstr "Mitteilungen"
+
+#~ msgid "Skip"
+#~ msgstr "Überspringen"
+
+#~ msgid "File"
+#~ msgstr "Datei"
+
+#~ msgid "File operations"
+#~ msgstr "Dateioperationen"
+
+#~ msgid ""
+#~ "The following files exists on both the local and remote file system.\n"
+#~ "Right-click to choose what action you want to take, or set an action for "
+#~ "all items under the list."
+#~ msgstr ""
+#~ "Die folgenden Dateien existieren sowohl auf dem lokalen als auch auf dem "
+#~ "entfernten Rechner.\n"
+#~ "Rechtsklick, um die gewünschte Aktion zu wählen oder eine Aktion für alle "
+#~ "Objekte unter der Liste wählen."
+
+#~ msgid "_Apply for all"
+#~ msgstr "Für alle _anwenden "
+
+#~ msgid "<b>File operations</b>"
+#~ msgstr "<b>Dateioperationen</b>"
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid "Permissions"
+#~ msgstr "Rechte"
+
+#~ msgid "Open Directory"
+#~ msgstr "Verzeichnis öffnen"
+
+#~ msgid "New Directory"
+#~ msgstr "Neues Verzeichnis"
+
+#~ msgid "Refresh"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Download"
+#~ msgstr "Herunterladen"
+
+#~ msgid "Upload"
+#~ msgstr "Hinaufladen"
+
+#~ msgid "Rename"
+#~ msgstr "Umbenennen"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Filename"
+#~ msgstr "Dateiname"
+
+#~ msgid "Size"
+#~ msgstr "Größe"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "User"
+#~ msgstr "Benutzer"
+
+#~ msgid "Group"
+#~ msgstr "Gruppe"
+
+#~ msgid "Parent Directory"
+#~ msgstr "Übergeordnetes Verzeichnis"
+
+#~ msgid "A directory named {0} already exists"
+#~ msgstr "Ein Verzeichnis mit Namen {0} existiert bereits"
+
+#~ msgid "Directory {0} not found"
+#~ msgstr "Verzeichnis {0} nicht gefunden"
+
+#~ msgid "Are you sure you want to delete the selected files?"
+#~ msgstr "Sind Sie sicher, dass Sie die markierten Dateien löschen wollen?"
+
+#~ msgid "Delete failed. Access denied"
+#~ msgstr "Löschen fehlgeschlagen. Zugriff verweigert"
+
+#~ msgid "Access to the path {0} is denied"
+#~ msgstr "Zugriff auf den Pfad {0} wird verweigert"
+
+#~ msgid "Can't change directory when not connected"
+#~ msgstr ""
+#~ "Kann nicht in das Verzeichnis wechseln, wenn keine Verbindung besteht."
+
+#~ msgid "New folder"
+#~ msgstr "Neues Verzeichnis"
+
+#~ msgid "New bookmark"
+#~ msgstr "Neues Lesezeichen"
+
+#~ msgid "Backup Bookmarks"
+#~ msgstr "Lesezeichen sichern"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Save"
+#~ msgstr "Speichern"
+
+#~ msgid "Restore Bookmarks"
+#~ msgstr "Lesezeichen zurücksichern"
+
+#~ msgid "Open"
+#~ msgstr "Öffnen"
+
+#~ msgid "Are you sure you want to delete {0}?"
+#~ msgstr "Sind Sie sicher, dass Sie {0} löschen wollen?"
+
+#~ msgid "New Bookmark"
+#~ msgstr "Neues Lesezeichen"
+
+#~ msgid "New Folder"
+#~ msgstr "Neues Verzeichnis"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "Lesezeichen importieren"
+
+#~ msgid "Name:"
+#~ msgstr "Name:"
+
+#~ msgid "<b>Bookmark</b>"
+#~ msgstr "<b>Lesezeichen</b>"
+
+#~ msgid "Protocol:"
+#~ msgstr "Protokoll:"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Verbindung</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Authentifikation</b>"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Remote Charset"
+#~ msgstr "Entfernter Zeichensatz"
+
+#~ msgid "<b>Character encoding</b>"
+#~ msgstr "<b>Zeichencodierung</b>"
+
+#~ msgid "Show hidden files"
+#~ msgstr "Versteckte Dateien anzeigen"
+
+#~ msgid "<b>File view</b>"
+#~ msgstr "<b>Dateiansicht</b>"
+
+#~ msgid "Passive file transfers"
+#~ msgstr "Passive Dateiübertragungen"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP</b>"
+
+#~ msgid "Encrypt Data Channel"
+#~ msgstr "Datenkanal verschlüsseln"
+
+#~ msgid "<b>FTPS</b>"
+#~ msgstr "<b>FTPS</b>"
+
+#~ msgid "Local path"
+#~ msgstr "Lokaler Pfad"
+
+#~ msgid "Remote path"
+#~ msgstr "Entfernter Pfad"
+
+#~ msgid "<b>Paths</b>"
+#~ msgstr "<b>Pfade</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "Erweitert"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Ordner</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Message font:"
+#~ msgstr "Schriftart für Mitteilungen:"
+
+#~ msgid "Enable logging"
+#~ msgstr "Aktiviere Mitschnitt"
+
+#~ msgid "<b>Message view</b>"
+#~ msgstr "<b>Mitteilungsansicht</b>"
+
+#~ msgid "Preserve file permissions"
+#~ msgstr "Bewahre Dateiberechtigungen"
+
+#~ msgid "<b>File transfer</b>"
+#~ msgstr "<b>Dateiübertragung</b>"
+
+#~ msgid "Use Gnome Keyring for passwords"
+#~ msgstr "Benutze Gnome Keyring für Passwörter"
+
+#~ msgid "<b>Bookmarks</b>"
+#~ msgstr "<b>Lesezeichen</b>"
+
+#~ msgid "Default protocol:"
+#~ msgstr "Standardprotokoll:"
+
+#~ msgid "<b>Protocol</b>"
+#~ msgstr "<b>Protokoll</b>"
+
+#~ msgid "Network timeout (s):"
+#~ msgstr "Netzwerk Zeitüberschreitung (s):"
+
+#~ msgid "<b>Network</b>"
+#~ msgstr "<b>Netzwerk</b>"
+
+#~ msgid "Do one transfer at a time"
+#~ msgstr "Eine Übertragung nach der anderen"
+
+#~ msgid "Maximum number of connections:"
+#~ msgstr "Maximale Anzahl Verbindungen:"
+
+#~ msgid "Connection"
+#~ msgstr "Verbindung"
+
+#~ msgid "Default port:"
+#~ msgstr "Standardport:"
+
+#~ msgid "<b>FTP Connection</b>"
+#~ msgstr "<b>FTP Verbindung</b>"
+
+#~ msgid "<b>File transfers</b>"
+#~ msgstr "<b>Dateiübertragungen</b>"
+
+#~ msgid "Translate empty user to 'anonymous'"
+#~ msgstr "Ersetze leeren Benutzer durch 'anonymous'"
+
+#~ msgid "Use email as anonymous password"
+#~ msgstr "Benutze Emailadresse als Passwort für 'anonymous'"
+
+#~ msgid "Email address:"
+#~ msgstr "Emailadresse:"
+
+#~ msgid "<b>Anonymous login</b>"
+#~ msgstr "<b>Anonymer Login</b>"
+
+#~ msgid "<b>Protection level</b>"
+#~ msgstr "<b>Schutzstufe</b>"
+
+#~ msgid "Verify server certificate"
+#~ msgstr "Überprüfe Serverzertifikat"
+
+#~ msgid "<b>Certificates</b>"
+#~ msgstr "<b>Zertifikate</b>"
+
+#~ msgid "<b>SFTP Connection</b>"
+#~ msgstr "<b>SFTP Verbindung</b>"
+
+#~ msgid "Program path:"
+#~ msgstr "Programmpfad:"
+
+#~ msgid "<b>SSH</b>"
+#~ msgstr "<b>SSH</b>"
+
+#~ msgid "Move up"
+#~ msgstr "Nach oben"
+
+#~ msgid "Move down"
+#~ msgstr "Nach unten"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Progress"
+#~ msgstr "Fortschritt"
+
+#~ msgid "Transfered bytes"
+#~ msgstr "Übertragene Bytes"
+
+#~ msgid "Transfer rate"
+#~ msgstr "Übertragungsrate"
+
+#~ msgid "Time"
+#~ msgstr "Zeit"
+
+#~ msgid "Transfer time"
+#~ msgstr "Übertragungszeit"
+
+#~ msgid "Time Elapsed"
+#~ msgstr "Vergangene Zeit"
+
+#~ msgid "Clear finished transfers"
+#~ msgstr "Beendete Übertragungen entfernen"
+
+#~ msgid "Operation aborted"
+#~ msgstr "Operation abgebrochen"
+
+#~ msgid "You need to connect to a remote site first"
+#~ msgstr "Sie müssen sich zuerst zu einer entfernten Seite verbinden"
+
+#~ msgid ""
+#~ "This will close the current connection. Do you want to continue "
+#~ "connecting?"
+#~ msgstr ""
+#~ "Dadurch wird die aktuelle Verbindung getrennt. Verbinden fortsetzen?"

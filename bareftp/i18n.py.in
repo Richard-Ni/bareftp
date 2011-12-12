@@ -1,0 +1,8 @@
+import gettext
+from gettext import gettext as _
+import os
+
+gettext.bindtextdomain ("@GETTEXT_PACKAGE@",
+                        os.path.join ("@prefix@", "@DATADIRNAME@", "locale"))
+
+gettext.textdomain("@GETTEXT_PACKAGE@")

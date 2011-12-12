@@ -1,0 +1,526 @@
+# bareFTP translation file
+# Copyright (C) 2009-2011 bareFTP's COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Adam Pongracz <pongadam@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 21:45+0200\n"
+"PO-Revision-Date: 2011-07-27 17:00+0000\n"
+"Last-Translator: Adam Pongracz <pongadam@gmail.com>\n"
+"Language-Team: Hungarian <>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../bareftp/mainwin.py:31
+msgid "_About"
+msgstr "_Névjegy"
+
+#: ../bareftp/mainwin.py:32
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: ../bareftp/mainwin.py:195
+msgid "File Transfer Client"
+msgstr "File Transfer Client"
+
+#~ msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+#~ msgstr "Fájlok átvitele FTP, FTPS és SFTP protokollokkal"
+
+#~ msgid "Connect"
+#~ msgstr "Kapcsolódás"
+
+#~ msgid "Disconnect"
+#~ msgstr "Szétkapcsolás"
+
+#~ msgid "_File"
+#~ msgstr "_Fájl"
+
+#~ msgid "_Help"
+#~ msgstr "_Súgó"
+
+#~ msgid "_Edit"
+#~ msgstr "Sz_erkesztés"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "_Beállítások"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "Köny_vjelzők"
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "Könyvjelzők szerkesztése"
+
+#~ msgid "Add bookmark"
+#~ msgstr "Könyvelző hozzáadása"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Könyvjelzők"
+
+#~ msgid "_Tools"
+#~ msgstr "Es_zközök"
+
+#~ msgid "Synchronized browsing"
+#~ msgstr "Szinkronizált böngészés"
+
+#~ msgid "Host:"
+#~ msgstr "Kiszolgáló:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User:"
+#~ msgstr "Felhasználó:"
+
+#~ msgid "Password:"
+#~ msgstr "Jelszó:"
+
+#~ msgid "_Disconnect"
+#~ msgstr "Szé_tkapcsolás"
+
+#~ msgid "C_onnect"
+#~ msgstr "K_apcsolódás"
+
+#~ msgid "Abort"
+#~ msgstr "Megszakítás"
+
+#~ msgid "Transfers"
+#~ msgstr "Átvitelek"
+
+#~ msgid "Messages"
+#~ msgstr "Üzenetek"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled."
+#~ msgstr "A kommunikáció a GnomeKeyringgel meghiúsult vagy nem engedélyezett."
+
+#~ msgid "If the problem persists, you may want to disable it permanently"
+#~ msgstr "Ha a probléma fennáll, akkor szükséges lehet véglegesen tiltani"
+
+#~ msgid "Overwrite"
+#~ msgstr "Felülírás"
+
+#~ msgid "Resume"
+#~ msgstr "Folytatás"
+
+#~ msgid "Append"
+#~ msgstr "Hozzáfűzés"
+
+#~ msgid "Skip"
+#~ msgstr "Kihagyás"
+
+#~ msgid "File"
+#~ msgstr "Fájl"
+
+#~ msgid "Local size"
+#~ msgstr "Helyi méret"
+
+#~ msgid "Remote size"
+#~ msgstr "Távoli méret"
+
+#~ msgid "Action"
+#~ msgstr "Művelet"
+
+#~ msgid "File operations"
+#~ msgstr "Fájlműveletek"
+
+#~ msgid ""
+#~ "The following files exists on both the local and remote file system.\n"
+#~ "Right-click to choose what action you want to take, or set an action for "
+#~ "all items under the list."
+#~ msgstr ""
+#~ "A következő fájlok mind a helyi mind a távoli rendszeren léteznek.\n"
+#~ "Kattintson a jobb gombbal a kívánt művelet kiválasztásához vagy válasszon "
+#~ "egy műveletet a lista összes eleméhez."
+
+#~ msgid "_Apply for all"
+#~ msgstr "_Mindegyikhez alkalmazás"
+
+#~ msgid "<b>File operations</b>"
+#~ msgstr "<b>Fájlműveletek</b>"
+
+#~ msgid "Password"
+#~ msgstr "Jelszó"
+
+#~ msgid "Permissions"
+#~ msgstr "Jogosultságok"
+
+#~ msgid "Read"
+#~ msgstr "Olvasás"
+
+#~ msgid "Write"
+#~ msgstr "Írás"
+
+#~ msgid "Execute"
+#~ msgstr "Végrehajtás"
+
+#~ msgid "<b>User:</b>"
+#~ msgstr "<b>Felhasználó:</b>"
+
+#~ msgid "<b>Group:</b>"
+#~ msgstr "<b>Csoport:</b>"
+
+#~ msgid "<b>Others:</b>"
+#~ msgstr "<b>Többiek:</b>"
+
+#~ msgid "<b>Permissions</b>"
+#~ msgstr "<b>Jogosultságok</b>"
+
+#~ msgid ""
+#~ "This is an unhandled exception. Please consider filing a bug report on \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Please include the exception details below."
+#~ msgstr ""
+#~ "Ez egy még nem javított hiba. Kérjük töltsön ki egy hibajelentést a "
+#~ "következő oldalon: \n"
+#~ "<b>http://www.bareftp.org/devel</b>\n"
+#~ "Kérjük a hiba részleteit másolja be alulról."
+
+#~ msgid "Details"
+#~ msgstr "Részletek"
+
+#~ msgid "Send command"
+#~ msgstr "Parancs küldése"
+
+#~ msgid "Command:"
+#~ msgstr "Parancs:"
+
+#~ msgid "Open Directory"
+#~ msgstr "Könyvtár megnyitása"
+
+#~ msgid "New Directory"
+#~ msgstr "Új könyvtár"
+
+#~ msgid "Refresh"
+#~ msgstr "Frissítés"
+
+#~ msgid "Download"
+#~ msgstr "Letöltés"
+
+#~ msgid "Upload"
+#~ msgstr "Feltöltés"
+
+#~ msgid "Rename"
+#~ msgstr "Átnevezés"
+
+#~ msgid "Delete"
+#~ msgstr "Törlés"
+
+#~ msgid "Filename"
+#~ msgstr "Fájlnév"
+
+#~ msgid "Size"
+#~ msgstr "Méret"
+
+#~ msgid "Date"
+#~ msgstr "Dátum"
+
+#~ msgid "User"
+#~ msgstr "Felhasználó"
+
+#~ msgid "Group"
+#~ msgstr "Csoport"
+
+#~ msgid "Parent Directory"
+#~ msgstr "Szülő könytár"
+
+#~ msgid "A directory named {0} already exists"
+#~ msgstr "A(z) {0} nevű könyvtár már létezik"
+
+#~ msgid "A file named {0} already exists"
+#~ msgstr "A(z) {0} nevű fájl már létezik"
+
+#~ msgid "Directory {0} not found"
+#~ msgstr "A(z) {0} könyvtár nem található"
+
+#~ msgid "Are you sure you want to delete the selected files?"
+#~ msgstr "Biztos benne, hogy a kiválasztott fájlokat törölni akarja?"
+
+#~ msgid "Delete failed. Access denied"
+#~ msgstr "A törlés sikertelen. Hozzáférés megtagadva"
+
+#~ msgid "Access to the path {0} is denied"
+#~ msgstr "Hozzáférés a(z) {0} útvonalhoz megtagadva"
+
+#~ msgid "Can't change directory when not connected"
+#~ msgstr "Nem lehet könyvtárt váltani, ha nincs kapcsolódva."
+
+#~ msgid "Retrieving directory contents.."
+#~ msgstr "Könyvtár tartalmának lekérése..."
+
+#~ msgid "Deleting.."
+#~ msgstr "Törlés..."
+
+#~ msgid "{0} already exists. Overwrite?"
+#~ msgstr "A(z) {0} már létezik. Felülírja?"
+
+#~ msgid "New folder"
+#~ msgstr "Új mappa"
+
+#~ msgid "New bookmark"
+#~ msgstr "Új könyvjelző"
+
+#~ msgid "Backup Bookmarks"
+#~ msgstr "Könyvjelzők mentése"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégse"
+
+#~ msgid "Save"
+#~ msgstr "Mentés"
+
+#~ msgid "Restore Bookmarks"
+#~ msgstr "Könyvjelzők visszaállítása"
+
+#~ msgid "Open"
+#~ msgstr "Megnyitás"
+
+#~ msgid "Are you sure you want to delete {0}?"
+#~ msgstr "Biztos benne, hogy {0}-t törölni akarja?"
+
+#~ msgid "<i><b>Note:</b> Password are currently stored in clear text</i>"
+#~ msgstr ""
+#~ "<i><b>Megjegyzés:</b> A jelszavak pillanatnyilag tikosítatlan szövegben "
+#~ "tárolódnak</i>"
+
+#~ msgid ""
+#~ "If you don't save the password you will be prompted for it when "
+#~ "connecting."
+#~ msgstr ""
+#~ "Ha nem menti el a jelszót, akkor csatlakozáskor kell majd begépelnie."
+
+#~ msgid "This bareFTP is built without GnomeKeyring support."
+#~ msgstr "Ez a bareFTP nem rendelkezik GnomeKeyring támogatással."
+
+#~ msgid ""
+#~ "You can enable Gnome Keyring password storage in Preferences to encrypt "
+#~ "your passwords."
+#~ msgstr ""
+#~ "Engedélyezheti a Gnome Keyring jelszótárolót a Beállításoknál, hogy "
+#~ "titkosítsa a jelszavait."
+
+#~ msgid "New Bookmark"
+#~ msgstr "Új könyvjelző"
+
+#~ msgid "New Folder"
+#~ msgstr "Új mappa"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "Könyvjelzők importálása"
+
+#~ msgid "Name:"
+#~ msgstr "Név:"
+
+#~ msgid "<b>Bookmark</b>"
+#~ msgstr "<b>Könyvjelző</b>"
+
+#~ msgid "Protocol:"
+#~ msgstr "Protokoll:"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Kapcsolat</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Hitelesítés</b>"
+
+#~ msgid "General"
+#~ msgstr "Általános"
+
+#~ msgid "Remote Charset"
+#~ msgstr "Távoli karakterkészlet"
+
+#~ msgid "<b>Character encoding</b>"
+#~ msgstr "<b>Karakterkódolás</b>"
+
+#~ msgid "Show hidden files"
+#~ msgstr "Rejtett fájlok megjelenítése"
+
+#~ msgid "<b>File view</b>"
+#~ msgstr "<b>Fájlnézet</b>"
+
+#~ msgid "Passive file transfers"
+#~ msgstr "Passzív fájlátvitelek"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP</b>"
+
+#~ msgid "Encrypt Data Channel"
+#~ msgstr "Adatcsatorna titkosítása"
+
+#~ msgid "<b>FTPS</b>"
+#~ msgstr "<b>FTPS</b>"
+
+#~ msgid "Local path"
+#~ msgstr "Helyi útvonal"
+
+#~ msgid "Remote path"
+#~ msgstr "Távoli útvonal"
+
+#~ msgid "Syncronized browsing"
+#~ msgstr "Szinkronizált böngészés"
+
+#~ msgid "<b>Paths</b>"
+#~ msgstr "<b>Útvonalak</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "Speciális"
+
+#~ msgid "<b>Folder</b>"
+#~ msgstr "<b>Ordner</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Beállítások"
+
+#~ msgid "Enable directory cache"
+#~ msgstr "Könyvtár gyorsítótár engedélyezése"
+
+#~ msgid "Message font:"
+#~ msgstr "Üzenetek betűtípusa:"
+
+#~ msgid "Enable logging"
+#~ msgstr "Naplózás engedélyezése"
+
+#~ msgid "<b>Message view</b>"
+#~ msgstr "<b>Üzenetnézet</b>"
+
+#~ msgid "Preserve file permissions"
+#~ msgstr "Fájljogosultságok megőrzése"
+
+#~ msgid "<b>File transfer</b>"
+#~ msgstr "<b>Fájlátvitel</b>"
+
+#~ msgid "Use Gnome Keyring for passwords"
+#~ msgstr "Gnome Keyring használata a jelszavakhoz"
+
+#~ msgid "<b>Bookmarks</b>"
+#~ msgstr "<b>Könyvjelzők</b>"
+
+#~ msgid "Default protocol:"
+#~ msgstr "Alapértelmezett protokoll:"
+
+#~ msgid "<b>Protocol</b>"
+#~ msgstr "<b>Protokoll</b>"
+
+#~ msgid "Network timeout (s):"
+#~ msgstr "Hálózati időkorlát (mp):"
+
+#~ msgid "<b>Network</b>"
+#~ msgstr "<b>Hálózat</b>"
+
+#~ msgid "Do one transfer at a time"
+#~ msgstr "Egyszerre csak egy átvitel"
+
+#~ msgid "Maximum number of connections:"
+#~ msgstr "Kapcsolatok maximális száma:"
+
+#~ msgid "Connection"
+#~ msgstr "Kapcsolat"
+
+#~ msgid "Default port:"
+#~ msgstr "Alapértelmezett port:"
+
+#~ msgid "<b>FTP Connection</b>"
+#~ msgstr "<b>FTP Kapcsolat</b>"
+
+#~ msgid "<b>File transfers</b>"
+#~ msgstr "<b>Fájlátvitelek</b>"
+
+#~ msgid "Translate empty user to 'anonymous'"
+#~ msgstr "Üres felhasználónév helyettesítése 'anonymous'-szal"
+
+#~ msgid "Use email as anonymous password"
+#~ msgstr "E-mail cím használata 'anonymous' jelszavaként"
+
+#~ msgid "Email address:"
+#~ msgstr "E-mail cím:"
+
+#~ msgid "<b>Anonymous login</b>"
+#~ msgstr "<b>Névtelen bejelentkezés</b>"
+
+#~ msgid "<b>Protection level</b>"
+#~ msgstr "<b>Védelmi szint</b>"
+
+#~ msgid "Verify server certificate"
+#~ msgstr "Kiszolgáló tanúsítványának ellenőrzése"
+
+#~ msgid "<b>Certificates</b>"
+#~ msgstr "<b>Tanúsítványok</b>"
+
+#~ msgid "<b>SFTP Connection</b>"
+#~ msgstr "<b>SFTP Kapcsolat</b>"
+
+#~ msgid "Program path:"
+#~ msgstr "Programútvonal:"
+
+#~ msgid "<b>SSH</b>"
+#~ msgstr "<b>SSH</b>"
+
+#~ msgid "Communication with GnomeKeyring failed and has been disabled"
+#~ msgstr "Kommunikáció a GnomeKeyringgel meghiúsult vagy nem engedélyezett"
+
+#~ msgid "Unknown encoding {0}. Check spelling."
+#~ msgstr "Ismeretlen kódolás: {0}. Ellenőrizze helyességét."
+
+#~ msgid "Move up"
+#~ msgstr "Fel"
+
+#~ msgid "Move down"
+#~ msgstr "Le"
+
+#~ msgid "Status"
+#~ msgstr "Állapot"
+
+#~ msgid "Progress"
+#~ msgstr "Folyamat"
+
+#~ msgid "Transfered bytes"
+#~ msgstr "Átvitt byte"
+
+#~ msgid "Transfer rate"
+#~ msgstr "Átviteli sebesség"
+
+#~ msgid "Time"
+#~ msgstr "Idő"
+
+#~ msgid "Transfer time"
+#~ msgstr "Átviteli idő"
+
+#~ msgid "Time Elapsed"
+#~ msgstr "Eltelt idő"
+
+#~ msgid "SSH not found. Check your ssh program path!"
+#~ msgstr "SSH nem található. Ellenőrizze az ssh program elérési útvonalát!"
+
+#~ msgid "Clear finished transfers"
+#~ msgstr "Befejezett átvitelek törlése"
+
+#~ msgid "Syncronized browsing disabled"
+#~ msgstr "Szinkronizált böngészés kikapcsolása"
+
+#~ msgid "Connecting"
+#~ msgstr "Kapcsolódás"
+
+#~ msgid "Invalid port number"
+#~ msgstr "Érvénytelen port szám"
+
+#~ msgid "Operation aborted"
+#~ msgstr "Művelet megszakítva"
+
+#~ msgid "Connected"
+#~ msgstr "Kapcsolódva"
+
+#~ msgid "You need to connect to a remote site first"
+#~ msgstr "Először kapcsolódnia kell egy távoli kiszolgálóhoz"
+
+#~ msgid ""
+#~ "This will close the current connection. Do you want to continue "
+#~ "connecting?"
+#~ msgstr ""
+#~ "Ezzel a jelenlegi kapcsolat megszakításra kerül. Kapcsolódás folytatása?"
+
+#~ msgid "Syncronized browsing enabled"
+#~ msgstr "Szinkronizált böngészés engedélyezve"
