@@ -16,7 +16,8 @@ class LocalClient(Protocol):
         self.currentdir = ''
         self.filehandle = None
         self.available = True
-
+        self.connected = True
+        
     def _open(self, remote_host, remote_port, user, passwd):
         self.available = False
         self.currentdir = os.path.expanduser('~')
@@ -147,6 +148,16 @@ class LocalClient(Protocol):
         self.filehandle.write(packet)
 
     def _put_end(self):
+        self.filehandle.close()
+        self.filehandle = None
+    
+    def _get_init(self, filename):
+        self.filehandle = open(os.path.join(self.currentdir, filename), 'r')
+
+    def _get_packet(self):
+        return self.filehandle.read(2048)
+
+    def _get_end(self):
         self.filehandle.close()
         self.filehandle = None
 
