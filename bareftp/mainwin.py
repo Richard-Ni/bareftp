@@ -117,7 +117,8 @@ class MainWindow(Gtk.Window):
 
         b1.add(img1)
         b1.props.label = None
-
+        b1.connect('clicked', self.upload_click)
+        
         img2 = Gtk.Image()
         img2.set_from_pixbuf(lib.icon_loader.load_icon('stock_left'))
 
@@ -187,6 +188,11 @@ class MainWindow(Gtk.Window):
     def download_click(self, *args):
         for f in self.fileview2.filelist.get_selected_files():
             x = Xfer(f, self.fileview2.conn_manager, self.fileview.conn_manager)
+            self.xferman.append_xfer(x)
+    
+    def upload_click(self, *args):
+        for f in self.fileview.filelist.get_selected_files():
+            x = Xfer(f, self.fileview.conn_manager, self.fileview2.conn_manager)
             self.xferman.append_xfer(x)
 
     def cleanup(self):
