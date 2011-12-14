@@ -142,7 +142,7 @@ class LocalClient(Protocol):
         return True
 
     def _put_init(self, filename):
-        self.filehandle = open(os.path.join(self.currentdir, filename), 'w')
+        self.filehandle = open(os.path.join(self.currentdir, filename), 'wb')
 
     def _put_packet(self, packet):
         self.filehandle.write(packet)
@@ -152,7 +152,7 @@ class LocalClient(Protocol):
         self.filehandle = None
     
     def _get_init(self, filename):
-        self.filehandle = open(os.path.join(self.currentdir, filename), 'r')
+        self.filehandle = open(os.path.join(self.currentdir, filename), 'rb')
 
     def _get_packet(self):
         return self.filehandle.read(2048)
