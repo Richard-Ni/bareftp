@@ -1,6 +1,7 @@
 from protocols.protocol import Protocol
 import lib.file_permission
 from lib.ftpfile import FtpFile
+from i18n import _
 import os
 import sys
 import stat
@@ -31,7 +32,12 @@ class LocalClient(Protocol):
             if _path == '..':
                 self.currentdir = os.path.split(self.currentdir)[0]
             else:
-                self.currentdir = os.path.join(self.currentdir, _path)
+                newpath = os.path.join(self.currentdir, _path)
+                if os.access(newpath, os.R_OK):
+                    self.currentdir = newpath
+                else:
+                    self.send_log_message(['error', 'LOCAL: %s\n' % _('Directory access denied')])
+                    return False
         return True
 
     def _pwd(self):
