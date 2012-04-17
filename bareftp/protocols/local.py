@@ -56,7 +56,8 @@ class LocalClient(Protocol):
                     size = int(file_stats[stat.ST_SIZE])
                 else:
                     size = long(file_stats[stat.ST_SIZE])
-                date = time.strftime("%m/%d/%Y %I:%M:%S %p", time.localtime(file_stats[stat.ST_MTIME]))
+                #date = time.strftime("%m/%d/%Y %I:%M:%S %p", time.localtime(file_stats[stat.ST_MTIME]))
+                date = time.localtime(file_stats[stat.ST_MTIME])
                 perms = lib.file_permission.str_from_mode(file_stats[stat.ST_MODE])
 
                 uid = file_stats[stat.ST_UID]

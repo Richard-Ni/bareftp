@@ -24,11 +24,25 @@ class BareFTPFileList(Gtk.TreeView):
         self.col_filename.add_attribute(self.cr_filename, "text", 2)
 
         self.col_size = Gtk.TreeViewColumn(_("Size"), renderer, text=3)
-        self.col_date = Gtk.TreeViewColumn(_("Date"), renderer, text=4)
-        self.col_user = Gtk.TreeViewColumn(_("User"), renderer, text=5)
-        self.col_group = Gtk.TreeViewColumn(_("Group"), renderer, text=6)
-        self.col_perm = Gtk.TreeViewColumn(_("Permissions"), renderer, text=7)
+        self.col_size.props.sort_column_id = 2
+        self.col_size.props.sort_indicator = True
 
+        self.col_date = Gtk.TreeViewColumn(_("Date"), renderer, text=4)
+        self.col_date.props.sort_column_id = 3
+        self.col_date.props.sort_indicator = True
+
+        self.col_user = Gtk.TreeViewColumn(_("User"), renderer, text=5)
+        self.col_user.props.sort_column_id = 4
+        self.col_user.props.sort_indicator = True
+
+        self.col_group = Gtk.TreeViewColumn(_("Group"), renderer, text=6)
+        self.col_group.props.sort_column_id = 5
+        self.col_group.props.sort_indicator = True
+
+        self.col_perm = Gtk.TreeViewColumn(_("Permissions"), renderer, text=7)
+        self.col_perm.props.sort_column_id = 6
+        self.col_perm.props.sort_indicator = True
+        
         self.append_column(self.col_filename)
         self.append_column(self.col_size)
         self.append_column(self.col_date)
@@ -44,6 +58,12 @@ class BareFTPFileList(Gtk.TreeView):
 
     def refresh_model(self, model):
         model.set_sort_func(0, self.sort_name)
+        model.set_sort_func(2, self.sort_size)
+        model.set_sort_func(3, self.sort_date)
+        model.set_sort_func(4, self.sort_user)
+        model.set_sort_func(5, self.sort_group)
+        model.set_sort_func(6, self.sort_permissions)
+        
         model.set_sort_column_id(0, 0) # TODO: What is the correct enum for ascending??
         self.props.model = model
 
@@ -66,7 +86,6 @@ class BareFTPFileList(Gtk.TreeView):
 
 
     def sort_name(self, model, iter1, iter2, data):
-
         file1 = model.get_value(iter1,0)
         file2 = model.get_value(iter2,0)
 
@@ -88,6 +107,87 @@ class BareFTPFileList(Gtk.TreeView):
         #    return 0
         #else:
         #    return 1
+
+    def sort_size(self, model, iter1, iter2, data):
+        file1 = model.get_value(iter1,0)
+        file2 = model.get_value(iter2,0)
+        
+        if file1.filename == '..':
+            return 0
+        elif file1.isdir and not file2.isdir:
+            return 0
+        elif not file1.isdir and file2.isdir:
+            return 1
+        else:
+            if file1.size < file2.size:
+                return -1
+            else:
+                return 1
+
+    def sort_date(self, model, iter1, iter2, data):
+        file1 = model.get_value(iter1,0)
+        file2 = model.get_value(iter2,0)
+        
+        if file1.filename == '..':
+            return 0
+        elif file1.isdir and not file2.isdir:
+            return 0
+        elif not file1.isdir and file2.isdir:
+            return 1
+        else:
+            if file1.lastmodified < file2.lastmodified:
+                return -1
+            else:
+                return 1
+    
+    def sort_user(self, model, iter1, iter2, data):
+        file1 = model.get_value(iter1,0)
+        file2 = model.get_value(iter2,0)
+        
+        if file1.filename == '..':
+            return 0
+        elif file1.isdir and not file2.isdir:
+            return 0
+        elif not file1.isdir and file2.isdir:
+            return 1
+        else:
+            if file1.owner < file2.owner:
+                return -1
+            else:
+                return 1
+
+    def sort_group(self, model, iter1, iter2, data):
+        file1 = model.get_value(iter1,0)
+        file2 = model.get_value(iter2,0)
+    
+        if file1.filename == '..':
+            return 0
+        elif file1.isdir and not file2.isdir:
+            return 0
+        elif not file1.isdir and file2.isdir:
+            return 1
+        else:
+            if file1.group < file2.group:
+                return -1
+            else:
+                return 1
+
+    def sort_permissions(self, model, iter1, iter2, data):
+        file1 = model.get_value(iter1,0)
+        file2 = model.get_value(iter2,0)
+    
+        if file1.filename == '..':
+            return 0
+        elif file1.isdir and not file2.isdir:
+            return 0
+        elif not file1.isdir and file2.isdir:
+            return 1
+        else:
+            if file1.permissions < file2.permissions:
+                return -1
+            else:
+                return 1
+
     def edit_permissions(self, *args):
         files = self.get_selected_files()
         chmoddialog = ChmodDialog(self.get_toplevel())
@@ -102,16 +202,26 @@ class BareFTPFileList(Gtk.TreeView):
     def showmenu(self, sender, evt):
         if evt.button == 3:
             # TODO: Make proper menus and events
+            
             self.menu = Gtk.Menu()
-            m0 = Gtk.ImageMenuItem(_('Open Directory'))
-            img = Gtk.Image()
-            img.set_from_pixbuf(lib.icon_loader.load_icon(Gtk.STOCK_GO_UP))
-            m0.set_image(img)
-            self.menu.append(m0)
+
+            ftpfiles = self.get_selected_files()
+            if not ftpfiles:
+                return
+            if len(ftpfiles) == 1 and ftpfiles[0].isdir:
+                m0 = Gtk.ImageMenuItem(_('Open Directory'))
+                img = Gtk.Image()
+                img.set_from_pixbuf(lib.icon_loader.load_icon(Gtk.STOCK_GO_UP))
+                m0.set_image(img)
+                self.menu.append(m0)
 
             m1 = Gtk.MenuItem(_('Permissions'))
             m1.connect('activate', self.edit_permissions)
             self.menu.append(m1)
+
+            m2 = Gtk.MenuItem(_('Delete'))
+            m2.connect('activate', self.delete_file)
+            self.menu.append(m2)
 
             self.menu.popup(None, None, None, None, evt.button, evt.time)
             self.menu.show_all()
@@ -126,15 +236,20 @@ class BareFTPFileList(Gtk.TreeView):
             files.append(_file)
         return files
 
+    def delete_file(self, *args):
+        self.emit('delete-files-event', self.get_selected_files())
+
     def row_activated(self, *args):
         files = self.get_selected_files()
         if files and len(files) == 1:
             self.emit('cwd-event', files[0])
 
     def is_clicked_node_selected(self, x, y):
-        path = self.get_path_at_pos(x, y)[0]
-        if path:
-            return self.get_selection().path_is_selected(path)
+        paths = self.get_path_at_pos(x, y)
+        if paths:
+            path = paths[0]
+            if path:
+                return self.get_selection().path_is_selected(path)
         return False
 
     def is_multiple_nodes_selected(self):
@@ -152,8 +267,7 @@ class BareFTPFileList(Gtk.TreeView):
             self.signal_canceledit = cr.connect('editing-canceled', self.filename_editing_canceled)
             self.set_cursor_on_cell(paths[0], self.get_column(0), cr, True)
         if evt.keyval == Gdk.KEY_Delete:
-            files = self.get_selected_files()
-            self.emit('delete-files-event', files)
+            self.delete_file()
 
     def file_renamed(self, sender, _path, newname):
         _store = self.props.model

@@ -1,5 +1,6 @@
 from __future__ import division
 from gi.repository import GObject
+import time
 
 class FtpFile(object):
     def __init__(self, filename=''):
@@ -19,8 +20,11 @@ class FtpFile(object):
         
     def expand(self):
         return [self, self.icon, self.filename, self.format_size(),
-                self.lastmodified, self.owner, self.group, self.permissions]
-        
+                self.format_date(), self.owner, self.group, self.permissions]
+    
+    def format_date(self):
+        return time.strftime("%m/%d/%Y %I:%M:%S %p", self.lastmodified)
+
     def format_size(self):
         return self.pretty_size(self.size)
 

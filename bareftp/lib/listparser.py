@@ -111,8 +111,8 @@ def parse_list_unix(list):
         if sys.version[0] == '3':
             f.size = int(size)
         else:
-            f.size = long(size)
-        f.lastmodified = str(lastmodified)
+            f.size = long(size)            
+        f.lastmodified = lastmodified
         f.owner = user
         f.group = group
         f.permissions = permissions
