@@ -1,0 +1,747 @@
+# bareFTP translation file
+# Copyright (C) 2009-2011 bareFTP's COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Petros Kyladitis <petros.kyladitis@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: bareFTP\n"
+"Report-Msgid-Bugs-To: http://www.bareftp.org/devel\n"
+"POT-Creation-Date: 2010-12-22 04:20+0100\n"
+"PO-Revision-Date: 2012-03-20 10:43+0000\n"
+"Last-Translator: Petros Kyladitis <petros.kyladitis@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.net/projects/p/bareftp/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../data/bareftp.desktop.in.in.h:1 ../src/bareFTP/Dialogs/AboutDialog.cs:47
+msgid "File Transfer Client"
+msgstr "Πρόγραμμα-πελάτης για μεταφορά αρχείων"
+
+#: ../data/bareftp.desktop.in.in.h:2
+msgid "Transfer files using the FTP, FTPS or SFTP protocol"
+msgstr "Μεταφορά αρχείων με τη χρήση των πρωτοκόλλων FTP, FTPS ή SFTP"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:111
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:112
+msgid "Connect"
+msgstr "Σύνδεση"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:114
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:115
+msgid "Disconnect"
+msgstr "Αποσύνδεση"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:117
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:118
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:41
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:42
+msgid "_File"
+msgstr "_Αρχείο"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:120
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:121
+msgid "_Quit"
+msgstr "Έ_ξοδος"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:123
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:124
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:126
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:127
+msgid "_About"
+msgstr "_Περί"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:129
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:130
+msgid "_Edit"
+msgstr "_Επεξεργασία"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:132
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:133
+msgid "Prefere_nces"
+msgstr "_Ρυθμίσεις"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:135
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:136
+msgid "_Bookmarks"
+msgstr "_Σελιδοδείκτες"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:138
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:139
+msgid "Edit bookmarks"
+msgstr "Επεξεργασία σελιδοδεικτών"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:141
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:142
+msgid "Add bookmark"
+msgstr "Προσθήκη σελιδοδείκτη"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:144
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:145
+#: ../src/bareFTP.Gui/BookmarkUtils.cs:43
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:59
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:147
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:148
+msgid "_Tools"
+msgstr "Ερ_γαλεία"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:150
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:151
+msgid "Synchronized browsing"
+msgstr "Συγχρονισμένη περιήγηση"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:180
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:235
+msgid "Host:"
+msgstr "Εξυπηρετητής:"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:201
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:245
+msgid "Port:"
+msgstr "Θύρα:"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:222
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:309
+msgid "User:"
+msgstr "Χρήστης:"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:243
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.AskPasswordDialog.cs:36
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:317
+msgid "Password:"
+msgstr "Κωδικός:"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:278
+msgid "_Disconnect"
+msgstr "Α_ποσύνδεση"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:305
+msgid "C_onnect"
+msgstr "Σύν_δεση"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:333
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressListContextMenu.cs:68
+msgid "Abort"
+msgstr "Ακύρωση"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:495
+msgid "Transfers"
+msgstr "Μεταφορές"
+
+#: ../src/bareFTP/gtk-gui/bareFTP.MainWindow.cs:517
+msgid "Messages"
+msgstr "Μηνύματα"
+
+#: ../src/bareFTP.Gui/BookmarkUtils.cs:75
+msgid "Communication with GnomeKeyring failed and has been disabled."
+msgstr "Η επικοινωνία το GnomeKeyring απέτυχε και έχει απενεργοποιηθεί."
+
+#: ../src/bareFTP.Gui/BookmarkUtils.cs:77
+msgid "If the problem persists, you may want to disable it permanently"
+msgstr "Εάν το πρόβλημα επιμένει, μπορεί να θέλετε να το απενεργοποιήσετε μόνιμα"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:37
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:125
+msgid "Overwrite"
+msgstr "Αντικατάσταση"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:38
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:129
+msgid "Resume"
+msgstr "Συνέχιση"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:39
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:133
+msgid "Append"
+msgstr "Προσάρτηση"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:40
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:137
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressListContextMenu.cs:36
+msgid "Skip"
+msgstr "Παράλειψη"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:46
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:69
+msgid "File"
+msgstr "Αρχείο"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:47
+msgid "Local size"
+msgstr "Μέγεθος τοπικού"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:48
+msgid "Remote size"
+msgstr "Μέγεθος απομακρυσμένου"
+
+#: ../src/bareFTP.Gui.Dialog/AskFileAction.cs:49
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.AskFileAction.cs:36
+msgid "File operations"
+msgstr "Εργασίες αρχείων"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.AskFileAction.cs:64
+msgid ""
+"The following files exists on both the local and remote file system.\n"
+"Right-click to choose what action you want to take, or set an action for all items under the list."
+msgstr "Τα ακόλουθα αρχεία υπάρχουν τόσο στον τοπικό και όσο και στο απομακρυσμένο σύστημα αρχείων.\nΚάντε δεξί κλικ για να επιλέξετε ποια ενέργεια θέλετε να γίνει, ή να ορίσετε μια ενέργεια για όλα τα στοιχεία της παρακάτω λίστας."
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.AskFileAction.cs:106
+msgid "_Apply for all"
+msgstr "Εφαρμογή σε ό_λα"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.AskFileAction.cs:125
+msgid "<b>File operations</b>"
+msgstr "<b>Εργασίες αρχείων</b>"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.AskPasswordDialog.cs:22
+msgid "Password"
+msgstr "Κωδικός"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:68
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:111
+#: ../src/bareFTP.Gui.FileManager/FileList.cs:94
+msgid "Permissions"
+msgstr "Δικαιώματα"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:109
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:169
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:229
+msgid "Read"
+msgstr "Ανάγνωση"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:121
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:181
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:241
+msgid "Write"
+msgstr "Εγγραφή"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:133
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:193
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:253
+msgid "Execute"
+msgstr "Εκτέλεση"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:145
+msgid "<b>User:</b>"
+msgstr "<b>Χρήστης:</b>"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:205
+msgid "<b>Group:</b>"
+msgstr "<b>Ομάδα:</b>"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:265
+msgid "<b>Others:</b>"
+msgstr "<b>Άλλα:</b>"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ChmodDialog.cs:277
+msgid "<b>Permissions</b>"
+msgstr "<b>Δικαιώματα</b>"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ExceptionDialog.cs:95
+msgid ""
+"This is an unhandled exception. Please consider filing a bug report on \n"
+"<b>http://www.bareftp.org/devel</b>\n"
+"Please include the exception details below."
+msgstr "Πρόκειται για μια εξαίρεση που δεν αντιμετωπίζεται. Παρακαλούμε να εξετάτε την υποβολή μιας αναφοράς σφάλματος στην διεύθυνση\n<b> http://www.bareftp.org/devel </ b>\nΠαρακαλούμε να συμπεριλάβετε τις λεπτομέρειες παρακάτω εξαίρεσης."
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.ExceptionDialog.cs:131
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.SendCommand.cs:24
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:117
+msgid "Send command"
+msgstr "Αποστολή εντολής"
+
+#: ../src/bareFTP.Gui.Dialog/gtk-gui/bareFTP.Gui.Dialog.SendCommand.cs:42
+msgid "Command:"
+msgstr "Εντολή:"
+
+#. Gtk.AccelGroup agr = new Gtk.AccelGroup();
+#. agr.Lock();
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:46
+msgid "Open Directory"
+msgstr "Άνοιγμα καταλόγου"
+
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:54
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:81
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:380
+#: ../src/bareFTP.Gui.FileManager/FileListRemote.cs:98
+#: ../src/bareFTP.Gui.FileManager/FileListRemote.cs:316
+msgid "New Directory"
+msgstr "Νέος κατάλογος"
+
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:60
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:72
+msgid "Download"
+msgstr "Κατέβασμα"
+
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:80
+msgid "Upload"
+msgstr "Ανέβασμα"
+
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:92
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: ../src/bareFTP.Gui.FileManager/ContextMenu.cs:100
+#: ../src/bareFTP.Gui.Preferences/BookmarkList.cs:211
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: ../src/bareFTP.Gui.FileManager/FileList.cs:70
+msgid "Filename"
+msgstr "Όνομα αρχείου"
+
+#: ../src/bareFTP.Gui.FileManager/FileList.cs:76
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: ../src/bareFTP.Gui.FileManager/FileList.cs:81
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: ../src/bareFTP.Gui.FileManager/FileList.cs:86
+msgid "User"
+msgstr "Χρήστης"
+
+#: ../src/bareFTP.Gui.FileManager/FileList.cs:90
+msgid "Group"
+msgstr "Ομάδα"
+
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:63
+#: ../src/bareFTP.Gui.FileManager/FileListRemote.cs:84
+msgid "Parent Directory"
+msgstr "Γονικός κατάλογος"
+
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:206
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:231
+#, csharp-format
+msgid "A directory named {0} already exists"
+msgstr "Ένας κατάλογος με όνομα {0} υπάρχει ήδη"
+
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:258
+#, csharp-format
+msgid "A file named {0} already exists"
+msgstr "Ένα αρχείο με όνομα  {0} υπάρχει ήδη"
+
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:292
+#, csharp-format
+msgid "Directory {0} not found"
+msgstr "Ο κατάλογος  {0} δεν βρέθηκε"
+
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:354
+#: ../src/bareFTP.Gui.FileManager/FileListRemote.cs:209
+msgid "Are you sure you want to delete the selected files?"
+msgstr "Θέλετε σίγουρα να διαγραφούν τα επιλεγμένα αρχεία;"
+
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:371
+msgid "Delete failed. Access denied"
+msgstr "Η διαγαφή απέτυχε. Η πρόσβαση δεν επιτρέπεται"
+
+#: ../src/bareFTP.Gui.FileManager/FileListLocal.cs:543
+#, csharp-format
+msgid "Access to the path {0} is denied"
+msgstr "Η πρόσβαση στη διαδρομή  {0} δεν επιτρέπεται"
+
+#: ../src/bareFTP.Gui.FileManager/FileListRemote.cs:611
+msgid "Can't change directory when not connected"
+msgstr "Δεν είναι δυνατή η αλλαγή του καταλόγου όταν δεν είστε συνδεδεμένοι"
+
+#: ../src/bareFTP.Gui.FileManager/FileListRemote.cs:711
+msgid "Retrieving directory contents.."
+msgstr "Λήψη των περιεχομένων του καταλόγου..."
+
+#: ../src/bareFTP.Gui.FileManager/FileListRemote.cs:720
+msgid "Deleting.."
+msgstr "Διαγραφή..."
+
+#: ../src/bareFTP.Gui.FileManager/FileUtils.cs:61
+#, csharp-format
+msgid "{0} already exists. Overwrite?"
+msgstr "Το  {0} υπάρχει ήδη. Θέλετε να αντικατασταθεί;"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:241
+#: ../src/bareFTP.Gui.Preferences/BookmarkList.cs:202
+#: ../src/bareFTP.Gui.Preferences/BookmarkList.cs:243
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:112
+msgid "New folder"
+msgstr "Νέος φάκελος"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:261
+#: ../src/bareFTP.Gui.Preferences/BookmarkList.cs:196
+#: ../src/bareFTP.Gui.Preferences/BookmarkList.cs:241
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:101
+msgid "New bookmark"
+msgstr "Νέος σελιδοδείκτης"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:332
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:53
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:54
+msgid "Backup Bookmarks"
+msgstr "Εξαγωγή σελιδοδεικτών"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:334
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:363
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:336
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:361
+msgid "Restore Bookmarks"
+msgstr "Επαναφορά σελιδοδεικτών"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkDialog.cs:365
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkList.cs:220
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr "Θέλετε σίγουρα να διαγραφεί το  {0} ;"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkWidget.cs:38
+msgid "<i><b>Note:</b> Password are currently stored in clear text</i>"
+msgstr "<i><b>Σημείωση:</b>Ο κωδικο αυτή τη στιγμή καταχωρείται ως απλό κείμενο</i>"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkWidget.cs:39
+msgid ""
+"If you don't save the password you will be prompted for it when connecting."
+msgstr "Αν δεν αποθηκεύσετε τον κωδικό θα ερωτηθείτε γι' αυτόν όταν συνδεθείτε ξανά."
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkWidget.cs:45
+msgid "This bareFTP is built without GnomeKeyring support."
+msgstr "Αυτή είναι μια έκδοση του bareFTP δίχως υποστίριξη GnomeKeyring"
+
+#: ../src/bareFTP.Gui.Preferences/BookmarkWidget.cs:50
+msgid ""
+"You can enable Gnome Keyring password storage in Preferences to encrypt your"
+" passwords."
+msgstr "Μπορείτε να ενεργοποιήσετε το GnomeKeyring, για την κρυπτογράφιση των καταχωρημένων κωδικών σας, από τις Προτιμήσεις."
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:44
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:45
+msgid "New Bookmark"
+msgstr "Νέος σελιδοδείκτης"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:47
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:48
+msgid "New Folder"
+msgstr "Νέος φάκελος"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:50
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.BookmarkDialog.cs:51
+msgid "Import Bookmarks"
+msgstr "Εισαγωγή σελοδοδεικτών"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:157
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.folder.cs:62
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:176
+msgid "<b>Bookmark</b>"
+msgstr "<b>Σελιδοδείκτης</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:227
+msgid "Protocol:"
+msgstr "Πρωτόκολλο:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:255
+msgid "<b>Connection</b>"
+msgstr "<b>Σύνδεση</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:343
+msgid "<b>Authentication</b>"
+msgstr "<b>Ταυτοποίηση</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:355
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.folder.cs:99
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:469
+msgid "General"
+msgstr "Γενικά"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:379
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:258
+msgid "Remote Charset"
+msgstr "Απομακρυσμένο σετ χαρκατήρων"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:400
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:279
+msgid "<b>Character encoding</b>"
+msgstr "<b>Κωδικοποίηση σετ χαρακτήρων</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:421
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:304
+msgid "Show hidden files"
+msgstr "Προβολή κρυφών αρχείων"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:429
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:332
+msgid "<b>File view</b>"
+msgstr "<b>Προβολή αρχείου</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:455
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:730
+msgid "Passive file transfers"
+msgstr "Παθητικές μεταφορές αρχείων"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:467
+msgid "<b>FTP</b>"
+msgstr "<b>FTP</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:493
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:859
+msgid "Encrypt Data Channel"
+msgstr "Κρυπτογραφημένο Κανάλι Δεδομένων"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:505
+msgid "<b>FTPS</b>"
+msgstr "<b>FTPS</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:557
+msgid "Local path"
+msgstr "Τοπική διαδρομή"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:567
+msgid "Remote path"
+msgstr "Απομακρυσμένη διαδρομή"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:581
+msgid "Syncronized browsing"
+msgstr "Συγχρονισμένη περιήγηση"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:593
+msgid "<b>Paths</b>"
+msgstr "<b>Διαδρομές</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.bookmark_gen.cs:607
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.folder.cs:86
+msgid "<b>Folder</b>"
+msgstr "<b>Φάκελος</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:224
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:318
+msgid "Enable directory cache"
+msgstr "Ενεργοποίηση προσωρινής μνήμης καταλόγου"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:361
+msgid "Message font:"
+msgstr "Γραμματοσειρά μηνύματος:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:387
+msgid "Enable logging"
+msgstr "Ενεργοποίηση καταγραφής"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:399
+msgid "<b>Message view</b>"
+msgstr "<b>Προβολή μηνύματος</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:420
+msgid "Preserve file permissions"
+msgstr "Διατήρηση δικαιωμάτων αρχείων"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:429
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:636
+msgid "<b>File transfer</b>"
+msgstr "<b>Μεταφορά αρχείου</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:449
+msgid "Use Gnome Keyring for passwords"
+msgstr "Χρήση του GnomeKeyring για τους κωδικούς"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:457
+msgid "<b>Bookmarks</b>"
+msgstr "<b>Σελιδοδείκτες</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:497
+msgid "Default protocol:"
+msgstr "Προεπιλεγμένο πρωτόκολλο:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:512
+msgid "<b>Protocol</b>"
+msgstr "<b>Πρωτόκολλο</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:541
+msgid "Network timeout (s):"
+msgstr "Χρονικό όριο δικτύου:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:567
+msgid "<b>Network</b>"
+msgstr "<b>Δίκτυο</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:592
+msgid "Do one transfer at a time"
+msgstr "Μια μεταφορά κάθε στιγμή"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:609
+msgid "Maximum number of connections:"
+msgstr "Μέγιστος αριθμός συνδέσεων:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:650
+msgid "Connection"
+msgstr "Σύδεση"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:678
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:951
+msgid "Default port:"
+msgstr "Προεπιλεγμένη θύρα:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:704
+msgid "<b>FTP Connection</b>"
+msgstr "<b>Σύνδεση FTP</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:742
+msgid "<b>File transfers</b>"
+msgstr "<b>Μεταφορές αρχείων</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:768
+msgid "Translate empty user to 'anonymous'"
+msgstr "Μετάφραση κενού χρήστης ως 'anonymous'"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:780
+msgid "Use email as anonymous password"
+msgstr "Χρήση email ως κωδικό του ανώνυμου χρήστη"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:795
+msgid "Email address:"
+msgstr "Διεύθυνση email:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:819
+msgid "<b>Anonymous login</b>"
+msgstr "<b>Ανώνυμη σύνδεση</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:871
+msgid "<b>Protection level</b>"
+msgstr "<b>Επίπεδο προστασίας</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:897
+msgid "Verify server certificate"
+msgstr "Επαλήθευση πιστοποιητικού διακομιστή"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:909
+msgid "<b>Certificates</b>"
+msgstr "<b>Πιστοποιητικά</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:977
+msgid "<b>SFTP Connection</b>"
+msgstr "<b>Σύνδεση SFTP</b>"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:1006
+msgid "Program path:"
+msgstr "Διαδρομή προγράμματος:"
+
+#: ../src/bareFTP.Gui.Preferences/gtk-gui/bareFTP.Gui.Preferences.PreferencesDialog.cs:1030
+msgid "<b>SSH</b>"
+msgstr "<b>SSH</b>"
+
+#: ../src/bareFTP.Gui.Preferences/PreferencesDialog.cs:145
+msgid "Communication with GnomeKeyring failed and has been disabled"
+msgstr "Η επικοινωνία με το GnomeKeyring απέτυχε και απενεργοποιήθηκε"
+
+#: ../src/bareFTP.Gui.Preferences/PreferencesDialog.cs:289
+#, csharp-format
+msgid "Unknown encoding {0}. Check spelling."
+msgstr "Άγνωστη κωδικοποίησης {0}. Ελέγξτε την ορθογραφία."
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressListContextMenu.cs:43
+msgid "Move up"
+msgstr "Μεταφορά πάνω"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressListContextMenu.cs:54
+msgid "Move down"
+msgstr "Μεταφορά κάτω"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:80
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:81
+msgid "Progress"
+msgstr "Πρόοδος"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:82
+msgid "Transfered bytes"
+msgstr "Bytes που μεταφέρθηκαν"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:83
+msgid "Transfer rate"
+msgstr "Ρυθμός μεταφοράς"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:84
+msgid "Time"
+msgstr "Χρόνος"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:275
+msgid "Transfer time"
+msgstr "Χρόνος μεταφοράς"
+
+#: ../src/bareFTP.Gui.ProgressMonitor/ProgressList.cs:276
+msgid "Time Elapsed"
+msgstr "Χρόνος που πέρασε"
+
+#: ../src/bareFTP.Protocol.Sftp/sftp/SftpConnection.cs:104
+msgid "SSH not found. Check your ssh program path!"
+msgstr "Δεν βρέθηκε το SSH. Ελέγξτε τη διαδρομή του ssh προγράμματος!"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:164
+msgid "Clear finished transfers"
+msgstr "Καθαρισμός ολοκληρωμένων μεταφορών"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:253
+msgid "Syncronized browsing disabled"
+msgstr "Η συγχρονισμένη περιήγηση έχει απενεργοποιηθεί"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:876
+msgid "Connecting"
+msgstr "Συνδέεται"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:897
+msgid "Invalid port number"
+msgstr "Μη έγκυρος αριθμός θύρας"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:939
+msgid "Operation aborted"
+msgstr "Η ενέργεια απορρίφθηκε"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:970
+msgid "Connected"
+msgstr "Συνδέθηκε"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:1101
+msgid "You need to connect to a remote site first"
+msgstr "Πρέπει να συνδεθείτε σε μια απομακρυσμένη τοποθεσία πρώτα"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:1157
+msgid ""
+"This will close the current connection. Do you want to continue connecting?"
+msgstr "Αυτό θα κλείσει την τρέχουσα σύνδεση. Θέλετε να συνεχίσω;"
+
+#: ../src/bareFTP/Widgets/MainWindow.cs:1164
+msgid "Syncronized browsing enabled"
+msgstr "Η συγχρονισμένη περιήγηση έχει ενεργοποιηθεί"
