@@ -70,13 +70,12 @@ def parse_list_unix(list):
         if timestr.find(':') > 0:
             timestr += str(current_year)
             lastmodified = datetime.strptime(timestr, '%b%d%H:%M%Y')
-
         else:
             lastmodified = datetime.strptime(timestr, '%b%d%Y')
-
+            
         if lastmodified > timedelta(days=2) + now:
             lastmodified = lastmodified + timedelta(weeks=-52)
-
+            
         name = ''
         linkedname = ''
         pos = 0

@@ -5,7 +5,6 @@ from i18n import _
 import os
 import sys
 import stat
-import time
 import datetime
 import shutil
 import pwd

@@ -12,6 +12,7 @@ class BareFTPFileList(Gtk.TreeView):
         self.col_filename = Gtk.TreeViewColumn(_("Filename"))
         self.col_filename.props.sort_column_id = 0
         self.col_filename.props.sort_indicator = True
+        self.col_filename.props.resizable = True
         #self.col_filename.props.sort_order = 'gtk-sort-ascending'
 
         self.cr_filename = Gtk.CellRendererText()
@@ -26,23 +27,28 @@ class BareFTPFileList(Gtk.TreeView):
         self.col_size = Gtk.TreeViewColumn(_("Size"), renderer, text=3)
         self.col_size.props.sort_column_id = 2
         self.col_size.props.sort_indicator = True
+        self.col_size.props.resizable = True
 
         self.col_date = Gtk.TreeViewColumn(_("Date"), renderer, text=4)
         self.col_date.props.sort_column_id = 3
         self.col_date.props.sort_indicator = True
+        self.col_date.props.resizable = True
 
         self.col_user = Gtk.TreeViewColumn(_("User"), renderer, text=5)
         self.col_user.props.sort_column_id = 4
         self.col_user.props.sort_indicator = True
+        self.col_user.props.resizable = True
 
         self.col_group = Gtk.TreeViewColumn(_("Group"), renderer, text=6)
         self.col_group.props.sort_column_id = 5
         self.col_group.props.sort_indicator = True
+        self.col_group.props.resizable = True
 
         self.col_perm = Gtk.TreeViewColumn(_("Permissions"), renderer, text=7)
         self.col_perm.props.sort_column_id = 6
         self.col_perm.props.sort_indicator = True
-        
+        self.col_perm.props.resizable = True
+
         self.append_column(self.col_filename)
         self.append_column(self.col_size)
         self.append_column(self.col_date)
@@ -56,6 +62,8 @@ class BareFTPFileList(Gtk.TreeView):
         self.connect('key-press-event', self.key_pressed)
         self.connect('button-release-event', self.showmenu)
 
+        self.props.model = BareFTPListStore()
+
     def refresh_model(self, model):
         model.set_sort_func(0, self.sort_name)
         model.set_sort_func(2, self.sort_size)
@@ -66,23 +74,6 @@ class BareFTPFileList(Gtk.TreeView):
         
         model.set_sort_column_id(0, 0) # TODO: What is the correct enum for ascending??
         self.props.model = model
-
-        #ListStore ls = Model as ListStore;
-        #
-        #    TreeSortable sortable = model as TreeSortable;
-        #    sortable.SetSortFunc(0, SortName);
-        #    sortable.SetSortFunc(1, SortSize);
-        #    sortable.SetSortFunc(2, SortDate);
-        #    sortable.SetSortFunc(3, SortUser);
-        #    sortable.SetSortFunc(4, SortGroup);
-        #    sortable.SetSortFunc(5, SortPermissions);
-        #
-        #    int sortcol;
-        #    Gtk.SortType st;
-        #    if(ls.GetSortColumnId(out sortcol, out st))
-        #        sortable.SetSortColumnId(sortcol, st);
-        #    else
-        #        sortable.SetSortColumnId(0, Gtk.SortType.Ascending);
 
 
     def sort_name(self, model, iter1, iter2, data):
