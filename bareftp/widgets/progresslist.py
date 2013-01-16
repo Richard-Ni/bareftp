@@ -3,10 +3,11 @@ from gi.repository import Gtk, GObject
 from lib.xferpool import Xfer
 from i18n import _
 
+
 class ProgressList(Gtk.TreeView):
     def __init__(self):
         super(ProgressList, self).__init__()
-        
+
         self.xid2iter = dict()
         self.piter = None
         self.props.show_expanders = True
@@ -25,7 +26,7 @@ class ProgressList(Gtk.TreeView):
         self.col_file.pack_start(self.cr_file, False)
         self.col_file.set_cell_data_func(self.cr_file, self.on_filename_data)
         self.col_file.set_cell_data_func(iconrenderer, self.on_icon_data)
-        
+
         self.col_direction = Gtk.TreeViewColumn("<->", textrenderer)
         self.col_direction.set_cell_data_func(textrenderer, self.on_direction_data)
 
@@ -69,17 +70,17 @@ class ProgressList(Gtk.TreeView):
         self.props.model.set_value(citer, 0, xfer)
         xfer.connect('xfer-event', self.update_xfer)
         self.expand_all()
-        
+
     def update_xfer(self, xfer):
         citer = self.xid2iter[xfer.xid]
         #piter = self.xid2iter[-1]
         self.props.model.set_value(citer, 0, xfer)
         #self.props.model.set_value(piter, 0, self.parentxfer)
-    
+
     def on_filename_data(self, column, renderer, treemodel, treeiter, data):
         f = self.props.model.get_value(treeiter, 0)
         renderer.props.text = f.filename
-    
+
     def on_icon_data(self, column, renderer, treemodel, treeiter, data):
         f = self.props.model.get_value(treeiter, 0)
         renderer.props.pixbuf = f.icon
@@ -116,4 +117,3 @@ class ProgressList(Gtk.TreeView):
     def on_time_data(self, column, renderer, treemodel, treeiter, data):
         x = self.props.model.get_value(treeiter, 0)
         renderer.props.text = str(x.elapsed_time)
-    

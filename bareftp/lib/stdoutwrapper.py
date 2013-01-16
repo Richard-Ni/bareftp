@@ -1,22 +1,32 @@
 from gi.repository import GObject
-import re
 import sys
 
+
 class StdOutWrapper(GObject.GObject):
+
+    errors = 'strict'
+    encoding = 'UTF-8'
+
     def __init__(self):
         super(StdOutWrapper, self).__init__()
         self.lines = []
 
     def write(self, _str):
-        if  _str.strip() == '' or _str.find('*resp*') >= 0 or _str.find('*cmd*') >= 0 or _str.find('*welcome*') >= 0:
+        if _str.strip() == '' or _str.find('*resp*') >= 0 or _str.find('*cmd*') >= 0 or _str.find('*welcome*') >= 0:
             return
         if _str.startswith('\'') and _str.endswith('\'') or _str.startswith('\"') and _str.endswith('\"'):
-            _str =  _str[1:-1]
+            _str = _str[1:-1]
 
         if sys.version[0] == '3':
-            _str = _str.encode('latin1').decode('utf-8')
+            try:
+                _str = _str.encode('latin1').decode('utf-8')
+            except UnicodeDecodeError:
+                pass
         else:
-            _str = _str.decode('unicode_escape').encode('latin1')
+            try:
+                _str = _str.decode('unicode_escape').encode('latin1')
+            except UnicodeDecodeError:
+                pass
 
         for l in _str.split('\\n'):
             if l == '':

@@ -19,6 +19,7 @@ class FTPClient(Protocol):
         self.xfer = False
         self.current_dir = ''
         self.datasocket = None
+        self.unicodeerror = False
 
         if sys.version[0] == '3':
             self.encode_cmd = self.encode_cmd_py3
@@ -228,7 +229,7 @@ class FTPClient(Protocol):
         finally:
             self.out.flush()
             sys.stdout = sys.__stdout__
-    
+
     def _put_init(self, filename):
         #self.filehandle = open(os.path.join(self.currentdir, filename), 'w')
         try:
@@ -273,7 +274,10 @@ class FTPClient(Protocol):
 
     def encode_cmd_py3(self, cmd):
         #TODO encode to whatever configured - use a sane default
-        return cmd.encode('utf8').decode('latin1')
+        if not self.unicodeerror:
+            return cmd.encode('utf8').decode('latin1')
+        else:
+            return cmd
 
     def encode_cmd_py2(self, cmd):
         #TODO encode to whatever configured - use a sane default
@@ -281,11 +285,19 @@ class FTPClient(Protocol):
 
     def encode_resp_py3(self, strdata):
         #TODO decode to whatever configured - use a sane default
-        return strdata.encode('latin1').decode('utf-8')
+        conf_value = 'utf-8'
+        try:
+            return strdata.encode('latin1').decode(conf_value)
+        except UnicodeDecodeError:
+            self.unicodeerror = True
+            return strdata
 
     def encode_resp_py2(self, strdata):
         #TODO decode to whatever configured - use a sane default
-        return strdata.decode('utf-8')
+        try:
+            return strdata.decode('utf-8')
+        except UnicodeDecodeError:
+            return strdata
 
     def encode_lines(self, lines):
         _lines = []
@@ -311,4 +323,3 @@ class FTPClient(Protocol):
         sys.__stdout__.write(l)
         sys.__stdout__.write('\n')
         sys.__stdout__.flush()
-

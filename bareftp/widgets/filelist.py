@@ -3,7 +3,7 @@ from lib.ftpfile import FtpFile
 from widgets.chmod_dialog import ChmodDialog
 from i18n import _
 import lib
-import sys
+
 
 class BareFTPFileList(Gtk.TreeView):
     def __init__(self):
@@ -71,14 +71,14 @@ class BareFTPFileList(Gtk.TreeView):
         model.set_sort_func(4, self.sort_user)
         model.set_sort_func(5, self.sort_group)
         model.set_sort_func(6, self.sort_permissions)
-        
-        model.set_sort_column_id(0, 0) # TODO: What is the correct enum for ascending??
+
+        # TODO: What is the correct enum for ascending??
+        model.set_sort_column_id(0, 0)
         self.props.model = model
 
-
     def sort_name(self, model, iter1, iter2, data):
-        file1 = model.get_value(iter1,0)
-        file2 = model.get_value(iter2,0)
+        file1 = model.get_value(iter1, 0)
+        file2 = model.get_value(iter2, 0)
 
         if file1.filename == '..':
             return 0
@@ -100,9 +100,9 @@ class BareFTPFileList(Gtk.TreeView):
         #    return 1
 
     def sort_size(self, model, iter1, iter2, data):
-        file1 = model.get_value(iter1,0)
-        file2 = model.get_value(iter2,0)
-        
+        file1 = model.get_value(iter1, 0)
+        file2 = model.get_value(iter2, 0)
+
         if file1.filename == '..':
             return 0
         elif file1.isdir and not file2.isdir:
@@ -116,9 +116,9 @@ class BareFTPFileList(Gtk.TreeView):
                 return 1
 
     def sort_date(self, model, iter1, iter2, data):
-        file1 = model.get_value(iter1,0)
-        file2 = model.get_value(iter2,0)
-        
+        file1 = model.get_value(iter1, 0)
+        file2 = model.get_value(iter2, 0)
+
         if file1.filename == '..':
             return 0
         elif file1.isdir and not file2.isdir:
@@ -130,11 +130,11 @@ class BareFTPFileList(Gtk.TreeView):
                 return -1
             else:
                 return 1
-    
+
     def sort_user(self, model, iter1, iter2, data):
-        file1 = model.get_value(iter1,0)
-        file2 = model.get_value(iter2,0)
-        
+        file1 = model.get_value(iter1, 0)
+        file2 = model.get_value(iter2, 0)
+
         if file1.filename == '..':
             return 0
         elif file1.isdir and not file2.isdir:
@@ -148,9 +148,9 @@ class BareFTPFileList(Gtk.TreeView):
                 return 1
 
     def sort_group(self, model, iter1, iter2, data):
-        file1 = model.get_value(iter1,0)
-        file2 = model.get_value(iter2,0)
-    
+        file1 = model.get_value(iter1, 0)
+        file2 = model.get_value(iter2, 0)
+
         if file1.filename == '..':
             return 0
         elif file1.isdir and not file2.isdir:
@@ -164,9 +164,9 @@ class BareFTPFileList(Gtk.TreeView):
                 return 1
 
     def sort_permissions(self, model, iter1, iter2, data):
-        file1 = model.get_value(iter1,0)
-        file2 = model.get_value(iter2,0)
-    
+        file1 = model.get_value(iter1, 0)
+        file2 = model.get_value(iter2, 0)
+
         if file1.filename == '..':
             return 0
         elif file1.isdir and not file2.isdir:
@@ -193,7 +193,6 @@ class BareFTPFileList(Gtk.TreeView):
     def showmenu(self, sender, evt):
         if evt.button == 3:
             # TODO: Make proper menus and events
-            
             self.menu = Gtk.Menu()
 
             ftpfiles = self.get_selected_files()

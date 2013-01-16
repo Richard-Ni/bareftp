@@ -18,7 +18,7 @@ class LocalClient(Protocol):
         self.filehandle = None
         self.available = True
         self.connected = True
-        
+
     def _open(self, remote_host, remote_port, user, passwd):
         self.available = False
         self.currentdir = os.path.expanduser('~')
@@ -56,7 +56,7 @@ class LocalClient(Protocol):
                     size = int(file_stats[stat.ST_SIZE])
                 else:
                     size = long(file_stats[stat.ST_SIZE])
-                
+
                 date = datetime.datetime.fromtimestamp(file_stats[stat.ST_MTIME])
                 perms = lib.file_permission.str_from_mode(file_stats[stat.ST_MODE])
 
@@ -149,7 +149,11 @@ class LocalClient(Protocol):
         return True
 
     def _put_init(self, filename):
-        self.filehandle = open(os.path.join(self.currentdir, filename), 'wb')
+        try:
+            self.filehandle = open(os.path.join(self.currentdir, filename), 'wb')
+            return True
+        except:
+            return False
 
     def _put_packet(self, packet):
         self.filehandle.write(packet)
@@ -157,9 +161,13 @@ class LocalClient(Protocol):
     def _put_end(self):
         self.filehandle.close()
         self.filehandle = None
-    
+
     def _get_init(self, filename):
-        self.filehandle = open(os.path.join(self.currentdir, filename), 'rb')
+        try:
+            self.filehandle = open(os.path.join(self.currentdir, filename), 'rb')
+            return True
+        except:
+            return False
 
     def _get_packet(self):
         return self.filehandle.read(2048)

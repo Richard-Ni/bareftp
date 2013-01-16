@@ -13,6 +13,7 @@ else:
     import _thread
     import queue
 
+
 class XferRunner(threading.Thread):
     def __init__(self):
         super(XferRunner, self).__init__()
@@ -51,7 +52,7 @@ class Xfer(GObject.GObject, threading.Thread):
         super(Xfer, self).__init__()
         threading.Thread.__init__(self)
         # sender and receiver is a connection_manager
-        
+
         self.status = ''
         self.transferred_bytes = 0
         self.transfer_rate = ''
@@ -62,7 +63,7 @@ class Xfer(GObject.GObject, threading.Thread):
         self.direction = ''
         self.sleeptime = 0.0
         self.lock = threading.Lock()
-        
+
         if not ftpfile:
             self.xid = -1
             self.filename = 'Connection'
@@ -70,7 +71,7 @@ class Xfer(GObject.GObject, threading.Thread):
             self.size = 0
             self.ftpfile = None
             return
-        
+
         self.filename = ftpfile.filename
         self.icon = ftpfile.icon
         self.size = ftpfile.size
@@ -82,7 +83,7 @@ class Xfer(GObject.GObject, threading.Thread):
             self.direction = '->'
         self.ftpfile = ftpfile
         self.repeater = RepeatTimer(0.5, self.xfer_event)
-        
+
     def run(self):
         if self.xid < 0:
             return
@@ -90,16 +91,20 @@ class Xfer(GObject.GObject, threading.Thread):
         self.conn_r.xfer_in_progress = True
 
         # Prepare both ends
-        self.conn_s._get_init(self.filename)
-        self.conn_r._put_init(self.filename)
+        if not self.conn_s._get_init(self.filename) or not self.conn_r._put_init(self.filename):
+            self.conn_s.xfer_in_progress = True
+            self.conn_r.xfer_in_progress = True
+            return
+
+        print('jalla')
 
         # Do the actual transfer
-        
+
         self.repeater.start()
         self.start_time = time.time()
-        self.timestamp = time.time() 
+        self.timestamp = time.time()
         self.status = 'Transfering'
-        
+
         while 1:
             data = self.conn_s._get_packet()
             if not data:
@@ -109,34 +114,34 @@ class Xfer(GObject.GObject, threading.Thread):
             self.transferred_bytes += tr_size
             self.bytes_since_speed_calc += tr_size
             self.conn_r._put_packet(data)
-            
+
             if self.sleeptime > 0:
                 time.sleep(self.sleeptime)
             self.lock.release()
-        
+
         self.repeater.cancel()
         self.status = 'Finished'
         self.emit('xfer-event')
-        
+
         # Clean up on both ends
         self.conn_s._get_end()
         self.conn_r._put_end()
 
         self.conn_s.xfer_in_progress = False
         self.conn_r.xfer_in_progress = False
-        
+
     def format_transferred_bytes(self):
         if self.xid < 0:
             return ''
         return '%s of %s' % (self.ftpfile.pretty_size(self.transferred_bytes), self.ftpfile.pretty_size(self.size))
-    
+
     def xfer_event(self):
         self.lock.acquire()
         if self.xid >= 0:
-                    
+
             t2 = time.time()
-            t3 = datetime.timedelta(0,int(round(t2-self.start_time)))
-            time_since_speed_calc = t2-self.timestamp
+            t3 = datetime.timedelta(0, int(round(t2 - self.start_time)))
+            time_since_speed_calc = t2 - self.timestamp
             if time_since_speed_calc >= 1.2:
                 tr_bytes = self.bytes_since_speed_calc
                 self.timestamp = time.time()
@@ -152,14 +157,15 @@ class Xfer(GObject.GObject, threading.Thread):
                     self.elapsed_time = str(t3)
             else:
                 self.elapsed_time = str(t3)
-            
+
             #limit = 409600
             #if self.bps > 0:
             #    delta = (self.bps - limit) / 1000000 / 1000
             #    self.sleeptime += delta
-            
+
             self.emit('xfer-event')
         self.lock.release()
+
 
 class XferManager(GObject.GObject):
     def __init__(self):

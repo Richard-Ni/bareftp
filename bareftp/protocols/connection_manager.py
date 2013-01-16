@@ -11,6 +11,7 @@ import threading
 from protocols.ftp import FTPClient
 from protocols.local import LocalClient
 
+
 class TaskRunner(threading.Thread):
     def __init__(self):
         super(TaskRunner, self).__init__()
@@ -46,6 +47,7 @@ class TaskRunner(threading.Thread):
             if not result:
                 break
         self.taskqueue.task_done()
+
 
 class ConnectionManager(GObject.GObject):
 
@@ -117,8 +119,8 @@ class ConnectionManager(GObject.GObject):
 
     def _open(self, returntask=False):
         c = self.get_connection()
-        #task = [c._open, ("host", 21, "user", "passwd")]
-        task = [c, c._open, ("xxx", 21, "xxx", "xxx")]
+        task = [c._open, ("host", 21, "user", "passwd")]
+
         if returntask:
             return task
         self.append_task(task)
