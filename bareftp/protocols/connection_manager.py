@@ -57,12 +57,24 @@ class ConnectionManager(GObject.GObject):
         self.tr = TaskRunner()
         self.tr.start()
 
+        self.username = None
+        self.password = None
+        self.hostname = None
+        self.port = None
+
     def abort_all(self):
         self.tr.cv.acquire()
         self.tr.stopsignal = True
         self.tr.cv.notify()
         self.tr.cv.release()
         self.tr.join()
+
+    def set_connection_params(self, username, password, hostname, port):
+        self.username = username
+        self.password = password
+        self.hostname = hostname
+        if port:
+            self.port = int(port)
 
     def get_num_connections(self):
         return len(self.connections)
@@ -78,7 +90,7 @@ class ConnectionManager(GObject.GObject):
                 return c
 
             c = self.create_connection()
-            c._open("xxx", 21, "xxx", "xxx")
+            c._open(self.hostname, self.port, self.username, self.password)
             c._cwd(self.tr.connections[0].current_dir)
             self.tr.connections.append(c)
             return c
@@ -119,7 +131,11 @@ class ConnectionManager(GObject.GObject):
 
     def _open(self, returntask=False):
         c = self.get_connection()
-        task = [c._open, ("host", 21, "user", "passwd")]
+        #task = [c._open, ("host", 21, "user", "passwd")]
+        if self.type == 'LOCAL':
+            task = [c, c._open, (None, None, None, None)]
+        else:
+            task = [c, c._open, (self.hostname, self.port, self.username, self.password)]
         if returntask:
             return task
         self.append_task(task)

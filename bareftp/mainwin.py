@@ -232,6 +232,11 @@ class MainWindow(Gtk.Window):
         return m
 
     def conn_clicked(self, *args):
+        self.fileview2.conn_manager.set_connection_params(\
+                    self.entry_username.get_text(),
+                    self.entry_password.get_text(),
+                    self.entry_host.get_text(),
+                    self.entry_port.get_text())
         self.fileview2.init()
 
     def activate_bookmark(self, sender, bookmark_item):
