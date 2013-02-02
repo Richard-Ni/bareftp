@@ -92,11 +92,9 @@ class Xfer(GObject.GObject, threading.Thread):
 
         # Prepare both ends
         if not self.conn_s._get_init(self.filename) or not self.conn_r._put_init(self.filename):
-            self.conn_s.xfer_in_progress = True
-            self.conn_r.xfer_in_progress = True
+            self.conn_s.xfer_in_progress = False
+            self.conn_r.xfer_in_progress = False
             return
-
-        print('jalla')
 
         # Do the actual transfer
 

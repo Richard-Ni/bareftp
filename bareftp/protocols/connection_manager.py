@@ -120,7 +120,6 @@ class ConnectionManager(GObject.GObject):
     def _open(self, returntask=False):
         c = self.get_connection()
         task = [c._open, ("host", 21, "user", "passwd")]
-
         if returntask:
             return task
         self.append_task(task)

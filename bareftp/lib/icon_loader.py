@@ -1,11 +1,9 @@
 from gi.repository import Gtk, GdkPixbuf, Gio
-#from bareftp.version import version
 from os import path
 import mimetypes
 
 
 def load_icon(stock_id):
-
     icontheme = Gtk.IconTheme.get_default()
     pixbuf = icontheme.load_icon(stock_id, 16, 0)
 
@@ -13,7 +11,6 @@ def load_icon(stock_id):
 
 
 def load_icon_from_filename(filename):
-
     m = mimetypes.guess_type(filename)[0]
     icontheme = Gtk.IconTheme.get_default()
     pixbuf = None
@@ -31,4 +28,6 @@ def load_icon_from_filename(filename):
 
 def load_bareftp_pixbuf(datadir, filename):
     pixbufpath = path.join(datadir, 'pixmaps', filename)
-    return GdkPixbuf.Pixbuf.new_from_file(pixbufpath)
+    if path.exists(pixbufpath):
+        return GdkPixbuf.Pixbuf.new_from_file(pixbufpath)
+    return None

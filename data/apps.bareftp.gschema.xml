@@ -36,9 +36,9 @@
   		<summary>Use Gnome Keyring</summary>
   		<description></description>
   	</key>
-  	<key type="i" name="timeout">
-  		<default>120000</default>
-  		<summary>Network timeout</summary>
+  	<key type="i" name="network-timeout">
+  		<default>120</default>
+  		<summary>Network timeout (s)</summary>
   		<description></description>
   	</key>
   	<key type="i" name="default-protocol">
@@ -51,6 +51,11 @@
   		<summary>"Email"</summary>
   		<description></description>
   	</key>
+    <key type="b" name="translate-empty-user-anon">
+      <default>true</default>
+      <summary>Translate empty username to anonymous</summary>
+      <description></description>
+    </key>
   	<key type="b" name="empty-anon-pass-email">
   		<default>true</default>
   		<summary>Use email as anonymous password</summary>
@@ -107,5 +112,5 @@
       <description></description>
     </key>
   </schema>
-  
+
 </schemalist>

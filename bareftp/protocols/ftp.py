@@ -223,6 +223,7 @@ class FTPClient(Protocol):
             self.datasocket.close()
             self.ftp.voidresp()
             self.datasocket = None
+            self._xdir()
             return True
         except error_perm as err:
             return False
@@ -255,6 +256,7 @@ class FTPClient(Protocol):
             self.datasocket.close()
             self.ftp.voidresp()
             self.datasocket = None
+            self._xdir()
             return True
         except error_perm as err:
             return False

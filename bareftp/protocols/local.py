@@ -161,6 +161,7 @@ class LocalClient(Protocol):
     def _put_end(self):
         self.filehandle.close()
         self.filehandle = None
+        self._xdir()
 
     def _get_init(self, filename):
         try:
@@ -175,6 +176,7 @@ class LocalClient(Protocol):
     def _get_end(self):
         self.filehandle.close()
         self.filehandle = None
+        self._xdir()
 
     def encode_lines(self, lines):
         _lines = []
