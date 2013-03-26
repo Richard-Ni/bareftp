@@ -40,29 +40,21 @@ class FTPClient(Protocol):
                 self.out.write('*ERROR*' + str(sys.exc_info()[1]))
                 self.ftp = None
                 return False
-            finally:
-                self.out.flush()
             try:
                 self.ftp.login(user, passwd)
                 self.connected = True
             except:
                 self.ftp = None
                 return False
-            finally:
-                self.out.flush()
             try:
                 #self.ftp.sendcmd('cd []')
                 self.system = self.ftp.sendcmd('SYST')
             except:
                 pass
-            finally:
-                self.out.flush()
             try:
                 self.features = self.parseFeatures(self.ftp.sendcmd('FEAT'), '211')
             except:
                 pass
-            finally:
-                self.out.flush()
             return True
 
     def _is_connected(self):
@@ -88,8 +80,6 @@ class FTPClient(Protocol):
             except:
                 self.send_log_message(['error', 'ftp.py: %s' % sys.exc_info()[1] + '\n'])
                 return False
-            finally:
-                self.out.flush()
 
     def _pwd(self):
         if self.ftp is None:
@@ -106,8 +96,6 @@ class FTPClient(Protocol):
             except error_perm as err:
                 self.out.write(str(err))
                 return False
-            finally:
-                self.out.flush()
 
     def _delete(self, filename):
         with redirect_stdout(self.out):
@@ -115,8 +103,6 @@ class FTPClient(Protocol):
                 self.ftp.delete(self.encode_cmd(filename))
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
 
     def _rmdir(self, dirname):
         with redirect_stdout(self.out):
@@ -134,8 +120,6 @@ class FTPClient(Protocol):
                 self.ftp.rmd(self.encode_cmd(dirname))
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
 
     def _mkdir(self, _path):
         with redirect_stdout(self.out):
@@ -143,8 +127,6 @@ class FTPClient(Protocol):
                 self.ftp.mkd(self.encode_cmd(_path))
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
 
     def _rename(self, src, dst):
         with redirect_stdout(self.out):
@@ -153,8 +135,6 @@ class FTPClient(Protocol):
                 return True
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
 
     def _chmod(self, path, mode):
         with redirect_stdout(self.out):
@@ -163,8 +143,6 @@ class FTPClient(Protocol):
                 return True
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
 
     def _xdir(self, returnlist=False):
         if self.ftp == None:
@@ -191,8 +169,6 @@ class FTPClient(Protocol):
             except error_perm as err:
                 self.out.write(str(err))
                 return False
-            finally:
-                self.out.flush()
 
     def _get_init(self, filename):
         with redirect_stdout(self.out):
@@ -202,8 +178,6 @@ class FTPClient(Protocol):
                 return True
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
 
     def _get_packet(self):
         return self.datasocket.recv(2048)
@@ -218,8 +192,6 @@ class FTPClient(Protocol):
                 return True
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
 
     def _put_init(self, filename):
         #self.filehandle = open(os.path.join(self.currentdir, filename), 'w')
@@ -230,9 +202,6 @@ class FTPClient(Protocol):
                 return True
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
-            pass
 
     def _put_packet(self, packet):
         self.datasocket.send(packet)
@@ -249,9 +218,6 @@ class FTPClient(Protocol):
                 return True
             except error_perm as err:
                 return False
-            finally:
-                self.out.flush()
-
 
     def traverse(self, _path, _files):
         self._cwd(self.current_dir + "/" + _path)

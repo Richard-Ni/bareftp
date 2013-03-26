@@ -10,6 +10,7 @@ def redirect_stdout(fileobj):
     try:
         yield fileobj
     finally:
+        fileobj.flush()
         sys.stdout = oldstdout
 
 
