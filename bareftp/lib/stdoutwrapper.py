@@ -1,5 +1,16 @@
 from gi.repository import GObject
+from contextlib import contextmanager
 import sys
+
+
+@contextmanager
+def redirect_stdout(fileobj):
+    oldstdout = sys.stdout
+    sys.stdout = fileobj
+    try:
+        yield fileobj
+    finally:
+        sys.stdout = oldstdout
 
 
 class StdOutWrapper(GObject.GObject):
